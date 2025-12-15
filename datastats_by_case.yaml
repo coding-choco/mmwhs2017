@@ -1,0 +1,3067 @@
+stats_summary:
+  image_stats:
+    shape:
+      max: [512, 512, 363]
+      mean: [512.0, 512.0, 265.25]
+      median: [512.0, 512.0, 261.0]
+      min: [512, 512, 177]
+      stdev: [0.0, 0.0, 59.03124172842716]
+      percentile:
+      - [512, 512, 177]
+      - [512, 512, 186]
+      - [512, 512, 358]
+      - [512, 512, 363]
+      percentile_00_5: [512, 512, 177]
+      percentile_10_0: [512, 512, 186]
+      percentile_90_0: [512, 512, 358]
+      percentile_99_5: [512, 512, 363]
+    channels:
+      max: 1
+      mean: 1.0
+      median: 1.0
+      min: 1
+      stdev: 0.0
+      percentile: [1, 1, 1, 1]
+      percentile_00_5: 1
+      percentile_10_0: 1
+      percentile_90_0: 1
+      percentile_99_5: 1
+    cropped_shape:
+      max: [512, 512, 363]
+      mean: [512.0, 495.55, 265.25]
+      median: [512.0, 508.0, 261.0]
+      min: [512, 449, 177]
+      stdev: [0.0, 20.88175040555748, 59.03124172842716]
+      percentile:
+      - [512, 449, 177]
+      - [512, 462, 186]
+      - [512, 512, 358]
+      - [512, 512, 363]
+      percentile_00_5: [512, 449, 177]
+      percentile_10_0: [512, 462, 186]
+      percentile_90_0: [512, 512, 358]
+      percentile_99_5: [512, 512, 363]
+    spacing:
+      max: [0.5859379768371582, 0.5859379768371582, 0.625]
+      mean: [0.4287108272314072, 0.4287108272314072, 0.5812499970197678]
+      median: [0.4384765028953552, 0.4384765028953552, 0.625]
+      min: [0.28125, 0.28125, 0.44999998807907104]
+      stdev: [0.08696453351589532, 0.08696453351589532, 0.07577722799305203]
+      percentile:
+      - [0.283291015625, 0.283291015625, 0.44999998807907104]
+      - [0.30625, 0.30625, 0.44999998807907104]
+      - [0.5117184162139894, 0.5117184162139894, 0.625]
+      - [0.5838969045877457, 0.5838969045877457, 0.625]
+      percentile_00_5: [0.283291015625, 0.283291015625, 0.44999998807907104]
+      percentile_10_0: [0.30625, 0.30625, 0.44999998807907104]
+      percentile_90_0: [0.5117184162139894, 0.5117184162139894, 0.625]
+      percentile_99_5: [0.5838969045877457, 0.5838969045877457, 0.625]
+    sizemm:
+      max: [300.000244140625, 300.000244140625, 187.5]
+      mean: [219.49994354248048, 219.49994354248048, 150.77499897778034]
+      median: [224.49996948242188, 224.49996948242188, 150.86249801516533]
+      min: [144.0, 144.0, 110.625]
+      stdev: [44.525841160138405, 44.525841160138405, 23.424753008331614]
+      percentile:
+      - [145.045, 145.045, 110.625]
+      - [156.8, 156.8, 116.25]
+      - [261.99982910156257, 261.99982910156257, 183.375]
+      - [298.9552151489258, 298.9552151489258, 187.321875]
+      percentile_00_5: [145.045, 145.045, 110.625]
+      percentile_10_0: [156.8, 156.8, 116.25]
+      percentile_90_0: [261.99982910156257, 261.99982910156257, 183.375]
+      percentile_99_5: [298.9552151489258, 298.9552151489258, 187.321875]
+    intensity: {max: 3136.0, mean: -742.9636596679687, median: -459.25, min: -3024.0,
+      stdev: 1032.7548370361328, percentile_00_5: -2522.9, percentile_10_0: -2522.9,
+      percentile_90_0: 197.45, percentile_99_5: 590.35}
+  image_foreground_stats:
+    intensity: {max: 1354.0, mean: 257.261457824707, median: 214.4, min: -1024.0,
+      stdev: 147.4068759918213, percentile_00_5: -11.25, percentile_10_0: 94.1, percentile_90_0: 472.75,
+      percentile_99_5: 570.0}
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity: {max: 1354.0, mean: 257.261457824707, median: 214.4, min: -1024.0,
+      stdev: 147.4068759918213, percentile_00_5: -11.25, percentile_10_0: 94.1, percentile_90_0: 472.75,
+      percentile_99_5: 570.0}
+    label:
+    - foreground_percentage:
+        max: 0.9566978812217712
+        mean: 0.9051041930913926
+        median: 0.9017521739006042
+        min: 0.8451954126358032
+        stdev: 0.04063533846704384
+        percentile: [0.8451955032348633, 0.8503924489021302, 0.9526411473751069, 0.9566505885124207]
+        percentile_00_5: 0.8451955032348633
+        percentile_10_0: 0.8503924489021302
+        percentile_90_0: 0.9526411473751069
+        percentile_99_5: 0.9566505885124207
+      image_intensity: {max: 3136.0, mean: -894.1645065307617, median: -666.75, min: -3024.0,
+        stdev: 1044.402507019043, percentile_00_5: -2522.9, percentile_10_0: -2522.9,
+        percentile_90_0: 101.55, percentile_99_5: 582.6}
+    - foreground_percentage:
+        max: 0.03498269245028496
+        mean: 0.014045095862820744
+        median: 0.010175440460443497
+        min: 0.0037948787212371826
+        stdev: 0.009337350274219853
+        percentile: [0.003807435007765889, 0.004353860020637512, 0.025910401716828346,
+          0.034137925757095226]
+        percentile_00_5: 0.003807435007765889
+        percentile_10_0: 0.004353860020637512
+        percentile_90_0: 0.025910401716828346
+        percentile_99_5: 0.034137925757095226
+      image_intensity: {max: 905.0, mean: 352.65393218994143, median: 377.3, min: -193.0,
+        stdev: 107.4720417022705, percentile_00_5: 79.25, percentile_10_0: 191.05,
+        percentile_90_0: 472.25, percentile_99_5: 546.3}
+    - foreground_percentage:
+        max: 0.03652205318212509
+        mean: 0.01886759391054511
+        median: 0.017350681126117706
+        min: 0.006912631448358297
+        stdev: 0.00958695292992776
+        percentile: [0.006927565650548786, 0.007076810672879219, 0.030105828866362573,
+          0.036030523553490644]
+        percentile_00_5: 0.006927565650548786
+        percentile_10_0: 0.007076810672879219
+        percentile_90_0: 0.030105828866362573
+        percentile_99_5: 0.036030523553490644
+      image_intensity: {max: 623.0, mean: 166.38140563964845, median: 172.2, min: -633.0,
+        stdev: 58.942154788970946, percentile_00_5: -13.64925537109375, percentile_10_0: 88.35,
+        percentile_90_0: 235.1, percentile_99_5: 303.0}
+    - foreground_percentage:
+        max: 0.02407647669315338
+        mean: 0.012248919229023159
+        median: 0.01145149301737547
+        min: 0.004779372829943895
+        stdev: 0.005764984471891796
+        percentile: [0.00489309738855809, 0.006224435707554221, 0.01968429852277041,
+          0.02391344244591892]
+        percentile_00_5: 0.00489309738855809
+        percentile_10_0: 0.006224435707554221
+        percentile_90_0: 0.01968429852277041
+        percentile_99_5: 0.02391344244591892
+      image_intensity: {max: 881.0, mean: 411.527693939209, median: 417.35, min: -175.0,
+        stdev: 66.5554121017456, percentile_00_5: 174.25, percentile_10_0: 332.8,
+        percentile_90_0: 486.95, percentile_99_5: 555.85}
+    - foreground_percentage:
+        max: 0.024543825536966324
+        mean: 0.012518257042393089
+        median: 0.01107734115794301
+        min: 0.0047813053242862225
+        stdev: 0.005208991195540474
+        percentile: [0.0049560236209072175, 0.006681371247395873, 0.01912831906229258,
+          0.024239607341587546]
+        percentile_00_5: 0.0049560236209072175
+        percentile_10_0: 0.006681371247395873
+        percentile_90_0: 0.01912831906229258
+        percentile_99_5: 0.024239607341587546
+      image_intensity: {max: 1354.0, mean: 161.90497283935548, median: 162.8, min: -757.0,
+        stdev: 60.70351505279541, percentile_00_5: -15.15, percentile_10_0: 88.85,
+        percentile_90_0: 232.9, percentile_99_5: 344.05}
+    - foreground_percentage:
+        max: 0.033683136105537415
+        mean: 0.01725620764773339
+        median: 0.017173150554299355
+        min: 0.007178761530667543
+        stdev: 0.007395297296788274
+        percentile: [0.007188242094125599, 0.0084446607157588, 0.026023472473025323,
+          0.033084566518664364]
+        percentile_00_5: 0.007188242094125599
+        percentile_10_0: 0.0084446607157588
+        percentile_90_0: 0.026023472473025323
+        percentile_99_5: 0.033084566518664364
+      image_intensity: {max: 808.0, mean: 122.9164810180664, median: 123.1, min: -650.0,
+        stdev: 53.160285758972165, percentile_00_5: -36.65, percentile_10_0: 60.25,
+        percentile_90_0: 185.0, percentile_99_5: 284.85}
+    - foreground_percentage:
+        max: 0.02183026261627674
+        mean: 0.009909525886178017
+        median: 0.007670716615393758
+        min: 0.0038289984222501516
+        stdev: 0.005464627765013006
+        percentile: [0.0038358505954965948, 0.004372996487654745, 0.016476955264806754,
+          0.02176547048613429]
+        percentile_00_5: 0.0038358505954965948
+        percentile_10_0: 0.004372996487654745
+        percentile_90_0: 0.016476955264806754
+        percentile_99_5: 0.02176547048613429
+      image_intensity: {max: 1182.0, mean: 469.4881988525391, median: 480.9, min: -166.0,
+        stdev: 66.26364784240722, percentile_00_5: 201.25, percentile_10_0: 393.5,
+        percentile_90_0: 534.9, percentile_99_5: 586.7}
+    - foreground_percentage:
+        max: 0.01898477040231228
+        mean: 0.01005021862220019
+        median: 0.009241227991878986
+        min: 0.003918715752661228
+        stdev: 0.004498313396971792
+        percentile: [0.003982313151936978, 0.005081784492358565, 0.017779194749891758,
+          0.01893277503550053]
+        percentile_00_5: 0.003982313151936978
+        percentile_10_0: 0.005081784492358565
+        percentile_90_0: 0.017779194749891758
+        percentile_99_5: 0.01893277503550053
+      image_intensity: {max: 1243.0, mean: 237.277347946167, median: 245.1, min: -1024.0,
+        stdev: 60.45048685073853, percentile_00_5: 14.5, percentile_10_0: 164.25,
+        percentile_90_0: 301.8, percentile_99_5: 362.5}
+  n_cases: 20
+stats_by_cases:
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1001_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1001_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 363]
+    channels: 1
+    cropped_shape:
+    - [512, 508, 363]
+    spacing: [0.35546875, 0.35546875, 0.44999998807907104]
+    sizemm: [182.0, 182.0, 163.3499956727028]
+    intensity:
+    - max: 3071.0
+      mean: -357.74920654296875
+      median: -112.0
+      min: -1024.0
+      stdev: 545.6922607421875
+      percentile: [-1024.0, -1024.0, 260.0, 656.0]
+      percentile_00_5: -1024.0
+      percentile_10_0: -1024.0
+      percentile_90_0: 260.0
+      percentile_99_5: 656.0
+  image_foreground_stats:
+    intensity:
+    - max: 1057.0
+      mean: 268.9526672363281
+      median: 185.0
+      min: -892.0
+      stdev: 191.21385192871094
+      percentile: [-28.0, 74.0, 558.0, 669.0]
+      percentile_00_5: -28.0
+      percentile_10_0: 74.0
+      percentile_90_0: 558.0
+      percentile_99_5: 669.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 1057.0
+      mean: 268.9526672363281
+      median: 185.0
+      min: -892.0
+      stdev: 191.21385192871094
+      percentile: [-28.0, 74.0, 558.0, 669.0]
+      percentile_00_5: -28.0
+      percentile_10_0: 74.0
+      percentile_90_0: 558.0
+      percentile_99_5: 669.0
+    label:
+    - image_intensity:
+      - max: 3071.0
+        mean: -471.3984680175781
+        median: -753.0
+        min: -1024.0
+        stdev: 513.4467163085938
+        percentile: [-1024.0, -1024.0, 124.0, 644.0]
+        percentile_00_5: -1024.0
+        percentile_10_0: -1024.0
+        percentile_90_0: 124.0
+        percentile_99_5: 644.0
+      foreground_percentage: 0.8535233736038208
+    - image_intensity:
+      - max: 799.0
+        mean: 350.1326599121094
+        median: 368.0
+        min: -147.0
+        stdev: 142.49136352539062
+        percentile: [23.0, 151.0, 524.0, 623.0]
+        percentile_00_5: 23.0
+        percentile_10_0: 151.0
+        percentile_90_0: 524.0
+        percentile_99_5: 623.0
+      foreground_percentage: 0.011452656239271164
+    - image_intensity:
+      - max: 606.0
+        mean: 122.57707977294922
+        median: 124.0
+        min: -218.0
+        stdev: 51.00977325439453
+        percentile: [-34.0, 59.0, 185.0, 248.0]
+        percentile_00_5: -34.0
+        percentile_10_0: 59.0
+        percentile_90_0: 185.0
+        percentile_99_5: 248.0
+      foreground_percentage: 0.023019449785351753
+    - image_intensity:
+      - max: 816.0
+        mean: 474.61480712890625
+        median: 479.0
+        min: -168.0
+        stdev: 74.59998321533203
+        percentile: [187.0, 387.0, 563.0, 648.0]
+        percentile_00_5: 187.0
+        percentile_10_0: 387.0
+        percentile_90_0: 563.0
+        percentile_99_5: 648.0
+      foreground_percentage: 0.02407647669315338
+    - image_intensity:
+      - max: 691.0
+        mean: 108.18671417236328
+        median: 107.0
+        min: -732.0
+        stdev: 54.67367935180664
+        percentile: [-49.0, 47.0, 169.0, 298.0]
+        percentile_00_5: -49.0
+        percentile_10_0: 47.0
+        percentile_90_0: 169.0
+        percentile_99_5: 298.0
+      foreground_percentage: 0.024543825536966324
+    - image_intensity:
+      - max: 646.0
+        mean: 126.58401489257812
+        median: 127.0
+        min: -227.0
+        stdev: 64.37841033935547
+        percentile: [-56.0, 48.0, 203.0, 322.0]
+        percentile_00_5: -56.0
+        percentile_10_0: 48.0
+        percentile_90_0: 203.0
+        percentile_99_5: 322.0
+      foreground_percentage: 0.02256920002400875
+    - image_intensity:
+      - max: 1057.0
+        mean: 551.0517578125
+        median: 562.0
+        min: -152.0
+        stdev: 85.6006088256836
+        percentile: [132.0, 469.0, 636.0, 710.0]
+        percentile_00_5: 132.0
+        percentile_10_0: 469.0
+        percentile_90_0: 636.0
+        percentile_99_5: 710.0
+      foreground_percentage: 0.02183026261627674
+    - image_intensity:
+      - max: 598.0
+        mean: 189.35186767578125
+        median: 192.0
+        min: -892.0
+        stdev: 58.920528411865234
+        percentile: [-21.0, 122.0, 257.0, 330.0]
+        percentile_00_5: -21.0
+        percentile_10_0: 122.0
+        percentile_90_0: 257.0
+        percentile_99_5: 330.0
+      foreground_percentage: 0.01898477040231228
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1002_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1002_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 239]
+    channels: 1
+    cropped_shape:
+    - [512, 500, 239]
+    spacing: [0.4882810115814209, 0.4882810115814209, 0.625]
+    sizemm: [249.9998779296875, 249.9998779296875, 149.375]
+    intensity:
+    - max: 1438.0
+      mean: -978.8329467773438
+      median: -854.0
+      min: -3024.0
+      stdev: 1106.24951171875
+      percentile: [-3024.0, -3024.0, 121.0, 573.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 121.0
+      percentile_99_5: 573.0
+  image_foreground_stats:
+    intensity:
+    - max: 656.0
+      mean: 246.91107177734375
+      median: 189.0
+      min: -259.0
+      stdev: 153.9951934814453
+      percentile: [-31.0, 100.0, 496.0, 581.0]
+      percentile_00_5: -31.0
+      percentile_10_0: 100.0
+      percentile_90_0: 496.0
+      percentile_99_5: 581.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 656.0
+      mean: 246.91107177734375
+      median: 189.0
+      min: -259.0
+      stdev: 153.9951934814453
+      percentile: [-31.0, 100.0, 496.0, 581.0]
+      percentile_00_5: -31.0
+      percentile_10_0: 100.0
+      percentile_90_0: 496.0
+      percentile_99_5: 581.0
+    label:
+    - image_intensity:
+      - max: 1438.0
+        mean: -1079.93212890625
+        median: -864.0
+        min: -3024.0
+        stdev: 1117.4510498046875
+        percentile: [-3024.0, -3024.0, 79.0, 560.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 79.0
+        percentile_99_5: 560.0
+      foreground_percentage: 0.9522457122802734
+    - image_intensity:
+      - max: 656.0
+        mean: 359.0820617675781
+        median: 418.0
+        min: -18.0
+        stdev: 140.224365234375
+        percentile: [70.0, 145.0, 505.0, 569.0]
+        percentile_00_5: 70.0
+        percentile_10_0: 145.0
+        percentile_90_0: 505.0
+        percentile_99_5: 569.0
+      foreground_percentage: 0.004833157639950514
+    - image_intensity:
+      - max: 558.0
+        mean: 159.3428192138672
+        median: 173.0
+        min: -257.0
+        stdev: 58.80595397949219
+        percentile: [-66.0, 85.0, 216.0, 277.0]
+        percentile_00_5: -66.0
+        percentile_10_0: 85.0
+        percentile_90_0: 216.0
+        percentile_99_5: 277.0
+      foreground_percentage: 0.01106653269380331
+    - image_intensity:
+      - max: 598.0
+        mean: 439.6439514160156
+        median: 452.0
+        min: -175.0
+        stdev: 61.89665603637695
+        percentile: [160.0, 379.0, 498.0, 535.0]
+        percentile_00_5: 160.0
+        percentile_10_0: 379.0
+        percentile_90_0: 498.0
+        percentile_99_5: 535.0
+      foreground_percentage: 0.006701417732983828
+    - image_intensity:
+      - max: 524.0
+        mean: 193.052978515625
+        median: 188.0
+        min: -250.0
+        stdev: 53.09479904174805
+        percentile: [61.0, 133.0, 263.0, 363.0]
+        percentile_00_5: 61.0
+        percentile_10_0: 133.0
+        percentile_90_0: 263.0
+        percentile_99_5: 363.0
+      foreground_percentage: 0.007105855271220207
+    - image_intensity:
+      - max: 580.0
+        mean: 116.55081939697266
+        median: 117.0
+        min: -259.0
+        stdev: 42.56789779663086
+        percentile: [-50.0, 76.0, 158.0, 280.0]
+        percentile_00_5: -50.0
+        percentile_10_0: 76.0
+        percentile_90_0: 158.0
+        percentile_99_5: 280.0
+      foreground_percentage: 0.01022745855152607
+    - image_intensity:
+      - max: 645.0
+        mean: 531.5474853515625
+        median: 539.0
+        min: 110.0
+        stdev: 45.42005920410156
+        percentile: [295.0, 485.0, 575.0, 603.0]
+        percentile_00_5: 295.0
+        percentile_10_0: 485.0
+        percentile_90_0: 575.0
+        percentile_99_5: 603.0
+      foreground_percentage: 0.0039011265616863966
+    - image_intensity:
+      - max: 291.0
+        mean: 180.7957000732422
+        median: 186.0
+        min: -216.0
+        stdev: 34.52180480957031
+        percentile: [17.0, 145.0, 215.0, 243.0]
+        percentile_00_5: 17.0
+        percentile_10_0: 145.0
+        percentile_90_0: 215.0
+        percentile_99_5: 243.0
+      foreground_percentage: 0.003918715752661228
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1003_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1003_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 298]
+    channels: 1
+    cropped_shape:
+    - [512, 508, 298]
+    spacing: [0.302734375, 0.302734375, 0.44999998807907104]
+    sizemm: [155.0, 155.0, 134.09999644756317]
+    intensity:
+    - max: 3071.0
+      mean: -335.97698974609375
+      median: -115.0
+      min: -1024.0
+      stdev: 523.101318359375
+      percentile: [-1024.0, -1024.0, 275.0, 558.0]
+      percentile_00_5: -1024.0
+      percentile_10_0: -1024.0
+      percentile_90_0: 275.0
+      percentile_99_5: 558.0
+  image_foreground_stats:
+    intensity:
+    - max: 786.0
+      mean: 280.8666076660156
+      median: 256.0
+      min: -368.0
+      stdev: 145.49005126953125
+      percentile: [-29.0, 105.0, 484.0, 585.0]
+      percentile_00_5: -29.0
+      percentile_10_0: 105.0
+      percentile_90_0: 484.0
+      percentile_99_5: 585.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 786.0
+      mean: 280.8666076660156
+      median: 256.0
+      min: -368.0
+      stdev: 145.49005126953125
+      percentile: [-29.0, 105.0, 484.0, 585.0]
+      percentile_00_5: -29.0
+      percentile_10_0: 105.0
+      percentile_90_0: 484.0
+      percentile_99_5: 585.0
+    label:
+    - image_intensity:
+      - max: 3071.0
+        mean: -440.14178466796875
+        median: -566.0
+        min: -1024.0
+        stdev: 494.2325134277344
+        percentile: [-1024.0, -1024.0, 142.0, 537.0]
+        percentile_00_5: -1024.0
+        percentile_10_0: -1024.0
+        percentile_90_0: 142.0
+        percentile_99_5: 537.0
+      foreground_percentage: 0.8629840612411499
+    - image_intensity:
+      - max: 760.0
+        mean: 392.2291564941406
+        median: 407.0
+        min: -97.0
+        stdev: 96.56278991699219
+        percentile: [115.0, 254.0, 504.0, 588.0]
+        percentile_00_5: 115.0
+        percentile_10_0: 254.0
+        percentile_90_0: 504.0
+        percentile_99_5: 588.0
+      foreground_percentage: 0.025890400633215904
+    - image_intensity:
+      - max: 534.0
+        mean: 192.95106506347656
+        median: 195.0
+        min: -261.0
+        stdev: 63.37113952636719
+        percentile: [7.0, 112.0, 271.0, 348.0]
+        percentile_00_5: 7.0
+        percentile_10_0: 112.0
+        percentile_90_0: 271.0
+        percentile_99_5: 348.0
+      foreground_percentage: 0.027053922414779663
+    - image_intensity:
+      - max: 766.0
+        mean: 435.94598388671875
+        median: 440.0
+        min: -88.0
+        stdev: 72.67253875732422
+        percentile: [208.0, 344.0, 524.0, 611.0]
+        percentile_00_5: 208.0
+        percentile_10_0: 344.0
+        percentile_90_0: 524.0
+        percentile_99_5: 611.0
+      foreground_percentage: 0.017094425857067108
+    - image_intensity:
+      - max: 521.0
+        mean: 155.5587158203125
+        median: 157.0
+        min: -214.0
+        stdev: 76.11847686767578
+        percentile: [-48.0, 57.0, 252.0, 345.0]
+        percentile_00_5: -48.0
+        percentile_10_0: 57.0
+        percentile_90_0: 252.0
+        percentile_99_5: 345.0
+      foreground_percentage: 0.01638016849756241
+    - image_intensity:
+      - max: 608.0
+        mean: 144.3555908203125
+        median: 146.0
+        min: -368.0
+        stdev: 75.94190979003906
+        percentile: [-79.0, 50.0, 238.0, 343.0]
+        percentile_00_5: -79.0
+        percentile_10_0: 50.0
+        percentile_90_0: 238.0
+        percentile_99_5: 343.0
+      foreground_percentage: 0.025872480124235153
+    - image_intensity:
+      - max: 786.0
+        mean: 461.5404968261719
+        median: 469.0
+        min: -56.0
+        stdev: 72.43241119384766
+        percentile: [218.0, 369.0, 545.0, 620.0]
+        percentile_00_5: 218.0
+        percentile_10_0: 369.0
+        percentile_90_0: 545.0
+        percentile_99_5: 620.0
+      foreground_percentage: 0.01262932363897562
+    - image_intensity:
+      - max: 648.0
+        mean: 293.0115661621094
+        median: 294.0
+        min: -130.0
+        stdev: 67.34906005859375
+        percentile: [105.0, 207.0, 378.0, 462.0]
+        percentile_00_5: 105.0
+        percentile_10_0: 207.0
+        percentile_90_0: 378.0
+        percentile_99_5: 462.0
+      foreground_percentage: 0.01209526602178812
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1004_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1004_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 200]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 200]
+    spacing: [0.3203119933605194, 0.3203119933605194, 0.625]
+    sizemm: [163.99974060058594, 163.99974060058594, 125.0]
+    intensity:
+    - max: 1398.0
+      mean: -870.8915405273438
+      median: -759.0
+      min: -3022.0
+      stdev: 1201.98583984375
+      percentile: [-3022.0, -3022.0, 308.0, 637.0]
+      percentile_00_5: -3022.0
+      percentile_10_0: -3022.0
+      percentile_90_0: 308.0
+      percentile_99_5: 637.0
+  image_foreground_stats:
+    intensity:
+    - max: 835.0
+      mean: 350.8179016113281
+      median: 301.0
+      min: -955.0
+      stdev: 176.9993438720703
+      percentile: [-10.0, 144.0, 585.0, 646.0]
+      percentile_00_5: -10.0
+      percentile_10_0: 144.0
+      percentile_90_0: 585.0
+      percentile_99_5: 646.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 835.0
+      mean: 350.8179016113281
+      median: 301.0
+      min: -955.0
+      stdev: 176.9993438720703
+      percentile: [-10.0, 144.0, 585.0, 646.0]
+      percentile_00_5: -10.0
+      percentile_10_0: 144.0
+      percentile_90_0: 585.0
+      percentile_99_5: 646.0
+    label:
+    - image_intensity:
+      - max: 1398.0
+        mean: -1031.9857177734375
+        median: -794.0
+        min: -3022.0
+        stdev: 1186.753662109375
+        percentile: [-3022.0, -3022.0, 116.0, 623.0]
+        percentile_00_5: -3022.0
+        percentile_10_0: -3022.0
+        percentile_90_0: 116.0
+        percentile_99_5: 623.0
+      foreground_percentage: 0.8835018277168274
+    - image_intensity:
+      - max: 805.0
+        mean: 509.5506896972656
+        median: 547.0
+        min: -119.0
+        stdev: 108.83514404296875
+        percentile: [168.0, 337.0, 611.0, 666.0]
+        percentile_00_5: 168.0
+        percentile_10_0: 337.0
+        percentile_90_0: 611.0
+        percentile_99_5: 666.0
+      foreground_percentage: 0.026090411469340324
+    - image_intensity:
+      - max: 586.0
+        mean: 249.17926025390625
+        median: 248.0
+        min: -145.0
+        stdev: 74.32276916503906
+        percentile: [27.0, 161.0, 340.0, 454.0]
+        percentile_00_5: 27.0
+        percentile_10_0: 161.0
+        percentile_90_0: 340.0
+        percentile_99_5: 454.0
+      foreground_percentage: 0.031348057091236115
+    - image_intensity:
+      - max: 770.0
+        mean: 511.4271240234375
+        median: 526.0
+        min: -87.0
+        stdev: 76.1061019897461
+        percentile: [191.0, 423.0, 582.0, 651.0]
+        percentile_00_5: 191.0
+        percentile_10_0: 423.0
+        percentile_90_0: 582.0
+        percentile_99_5: 651.0
+      foreground_percentage: 0.008432579226791859
+    - image_intensity:
+      - max: 615.0
+        mean: 177.68882751464844
+        median: 182.0
+        min: -395.0
+        stdev: 79.1977310180664
+        percentile: [-70.0, 83.0, 260.0, 438.0]
+        percentile_00_5: -70.0
+        percentile_10_0: 83.0
+        percentile_90_0: 260.0
+        percentile_99_5: 438.0
+      foreground_percentage: 0.009777813218533993
+    - image_intensity:
+      - max: 713.0
+        mean: 165.53639221191406
+        median: 169.0
+        min: -266.0
+        stdev: 59.49163055419922
+        percentile: [-48.0, 96.0, 231.0, 325.0]
+        percentile_00_5: -48.0
+        percentile_10_0: 96.0
+        percentile_90_0: 231.0
+        percentile_99_5: 325.0
+      foreground_percentage: 0.020919151604175568
+    - image_intensity:
+      - max: 835.0
+        mean: 552.9917602539062
+        median: 561.0
+        min: 5.0
+        stdev: 57.23411560058594
+        percentile: [307.0, 498.0, 610.0, 650.0]
+        percentile_00_5: 307.0
+        percentile_10_0: 498.0
+        percentile_90_0: 610.0
+        percentile_99_5: 650.0
+      foreground_percentage: 0.011273955926299095
+    - image_intensity:
+      - max: 765.0
+        mean: 464.0168762207031
+        median: 505.0
+        min: -955.0
+        stdev: 137.9425506591797
+        percentile: [-236.0, 315.0, 592.0, 642.0]
+        percentile_00_5: -236.0
+        percentile_10_0: 315.0
+        percentile_90_0: 592.0
+        percentile_99_5: 642.0
+      foreground_percentage: 0.008656234480440617
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1005_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1005_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 177]
+    channels: 1
+    cropped_shape:
+    - [512, 477, 177]
+    spacing: [0.4882810115814209, 0.4882810115814209, 0.625]
+    sizemm: [249.9998779296875, 249.9998779296875, 110.625]
+    intensity:
+    - max: 1529.0
+      mean: -866.8563232421875
+      median: -736.0
+      min: -3022.0
+      stdev: 1156.270263671875
+      percentile: [-3022.0, -3022.0, 140.0, 580.0]
+      percentile_00_5: -3022.0
+      percentile_10_0: -3022.0
+      percentile_90_0: 140.0
+      percentile_99_5: 580.0
+  image_foreground_stats:
+    intensity:
+    - max: 568.0
+      mean: 184.45057678222656
+      median: 137.0
+      min: -402.0
+      stdev: 122.43743133544922
+      percentile: [-2.0, 70.0, 389.0, 489.0]
+      percentile_00_5: -2.0
+      percentile_10_0: 70.0
+      percentile_90_0: 389.0
+      percentile_99_5: 489.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 568.0
+      mean: 184.45057678222656
+      median: 137.0
+      min: -402.0
+      stdev: 122.43743133544922
+      percentile: [-2.0, 70.0, 389.0, 489.0]
+      percentile_00_5: -2.0
+      percentile_10_0: 70.0
+      percentile_90_0: 389.0
+      percentile_99_5: 489.0
+    label:
+    - image_intensity:
+      - max: 1529.0
+        mean: -1110.401123046875
+        median: -805.0
+        min: -3022.0
+        stdev: 1214.2880859375
+        percentile: [-3022.0, -3022.0, 58.0, 587.0]
+        percentile_00_5: -3022.0
+        percentile_10_0: -3022.0
+        percentile_90_0: 58.0
+        percentile_99_5: 587.0
+      foreground_percentage: 0.9022444486618042
+    - image_intensity:
+      - max: 549.0
+        mean: 306.841064453125
+        median: 338.0
+        min: -26.0
+        stdev: 101.6481704711914
+        percentile: [52.0, 141.0, 414.0, 468.0]
+        percentile_00_5: 52.0
+        percentile_10_0: 141.0
+        percentile_90_0: 414.0
+        percentile_99_5: 468.0
+      foreground_percentage: 0.00846166629344225
+    - image_intensity:
+      - max: 424.0
+        mean: 117.40021514892578
+        median: 121.0
+        min: -402.0
+        stdev: 47.212799072265625
+        percentile: [-20.0, 56.0, 172.0, 246.0]
+        percentile_00_5: -20.0
+        percentile_10_0: 56.0
+        percentile_90_0: 172.0
+        percentile_99_5: 246.0
+      foreground_percentage: 0.018254339694976807
+    - image_intensity:
+      - max: 537.0
+        mean: 340.0256042480469
+        median: 344.0
+        min: 4.0
+        stdev: 52.67547607421875
+        percentile: [163.0, 275.0, 402.0, 453.0]
+        percentile_00_5: 163.0
+        percentile_10_0: 275.0
+        percentile_90_0: 402.0
+        percentile_99_5: 453.0
+      foreground_percentage: 0.013652758672833443
+    - image_intensity:
+      - max: 397.0
+        mean: 117.20691680908203
+        median: 119.0
+        min: -139.0
+        stdev: 41.35115432739258
+        percentile: [-13.0, 67.0, 166.0, 229.0]
+        percentile_00_5: -13.0
+        percentile_10_0: 67.0
+        percentile_90_0: 166.0
+        percentile_99_5: 229.0
+      foreground_percentage: 0.018882406875491142
+    - image_intensity:
+      - max: 478.0
+        mean: 101.10105895996094
+        median: 99.0
+        min: -149.0
+        stdev: 38.15606689453125
+        percentile: [10.0, 57.0, 147.0, 236.0]
+        percentile_00_5: 10.0
+        percentile_10_0: 57.0
+        percentile_90_0: 147.0
+        percentile_99_5: 236.0
+      foreground_percentage: 0.020735057070851326
+    - image_intensity:
+      - max: 568.0
+        mean: 429.8964538574219
+        median: 442.0
+        min: 70.0
+        stdev: 56.43302536010742
+        percentile: [199.0, 364.0, 484.0, 519.0]
+        percentile_00_5: 199.0
+        percentile_10_0: 364.0
+        percentile_90_0: 484.0
+        percentile_99_5: 519.0
+      foreground_percentage: 0.006652637850493193
+    - image_intensity:
+      - max: 337.0
+        mean: 133.12416076660156
+        median: 139.0
+        min: -177.0
+        stdev: 39.133235931396484
+        percentile: [-7.0, 83.0, 175.0, 210.0]
+        percentile_00_5: -7.0
+        percentile_10_0: 83.0
+        percentile_90_0: 175.0
+        percentile_99_5: 210.0
+      foreground_percentage: 0.01111669559031725
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1006_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1006_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 248]
+    channels: 1
+    cropped_shape:
+    - [512, 469, 248]
+    spacing: [0.4882810115814209, 0.4882810115814209, 0.625]
+    sizemm: [249.9998779296875, 249.9998779296875, 155.0]
+    intensity:
+    - max: 3006.0
+      mean: -739.4635620117188
+      median: -150.0
+      min: -3022.0
+      stdev: 1123.9681396484375
+      percentile: [-3022.0, -3022.0, 172.0, 554.0]
+      percentile_00_5: -3022.0
+      percentile_10_0: -3022.0
+      percentile_90_0: 172.0
+      percentile_99_5: 554.0
+  image_foreground_stats:
+    intensity:
+    - max: 1354.0
+      mean: 317.1532897949219
+      median: 338.0
+      min: -746.0
+      stdev: 118.68225860595703
+      percentile: [19.0, 141.0, 451.0, 528.0]
+      percentile_00_5: 19.0
+      percentile_10_0: 141.0
+      percentile_90_0: 451.0
+      percentile_99_5: 528.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 1354.0
+      mean: 317.1532897949219
+      median: 338.0
+      min: -746.0
+      stdev: 118.68225860595703
+      percentile: [19.0, 141.0, 451.0, 528.0]
+      percentile_00_5: 19.0
+      percentile_10_0: 141.0
+      percentile_90_0: 451.0
+      percentile_99_5: 528.0
+    label:
+    - image_intensity:
+      - max: 3006.0
+        mean: -931.85595703125
+        median: -666.0
+        min: -3022.0
+        stdev: 1186.57666015625
+        percentile: [-3022.0, -3022.0, 98.0, 539.0]
+        percentile_00_5: -3022.0
+        percentile_10_0: -3022.0
+        percentile_90_0: 98.0
+        percentile_99_5: 539.0
+      foreground_percentage: 0.9472600817680359
+    - image_intensity:
+      - max: 659.0
+        mean: 354.360595703125
+        median: 381.0
+        min: -29.0
+        stdev: 103.82476806640625
+        percentile: [102.0, 198.0, 472.0, 539.0]
+        percentile_00_5: 102.0
+        percentile_10_0: 198.0
+        percentile_90_0: 472.0
+        percentile_99_5: 539.0
+      foreground_percentage: 0.005142380949109793
+    - image_intensity:
+      - max: 530.0
+        mean: 295.14862060546875
+        median: 312.0
+        min: -94.0
+        stdev: 71.8752670288086
+        percentile: [52.0, 193.0, 370.0, 428.0]
+        percentile_00_5: 52.0
+        percentile_10_0: 193.0
+        percentile_90_0: 370.0
+        percentile_99_5: 428.0
+      foreground_percentage: 0.006912631448358297
+    - image_intensity:
+      - max: 556.0
+        mean: 416.0456848144531
+        median: 422.0
+        min: -8.0
+        stdev: 44.63538360595703
+        percentile: [218.0, 370.0, 462.0, 501.0]
+        percentile_00_5: 218.0
+        percentile_10_0: 370.0
+        percentile_90_0: 462.0
+        percentile_99_5: 501.0
+      foreground_percentage: 0.008283584378659725
+    - image_intensity:
+      - max: 1354.0
+        mean: 284.60308837890625
+        median: 284.0
+        min: -501.0
+        stdev: 87.98384094238281
+        percentile: [20.0, 194.0, 365.0, 680.0]
+        percentile_00_5: 20.0
+        percentile_10_0: 194.0
+        percentile_90_0: 365.0
+        percentile_99_5: 680.0
+      foreground_percentage: 0.009461895562708378
+    - image_intensity:
+      - max: 468.0
+        mean: 147.91976928710938
+        median: 146.0
+        min: -264.0
+        stdev: 57.073463439941406
+        percentile: [-17.0, 80.0, 220.0, 308.0]
+        percentile_00_5: -17.0
+        percentile_10_0: 80.0
+        percentile_90_0: 220.0
+        percentile_99_5: 308.0
+      foreground_percentage: 0.008782186545431614
+    - image_intensity:
+      - max: 848.0
+        mean: 430.9691162109375
+        median: 439.0
+        min: -108.0
+        stdev: 50.87176513671875
+        percentile: [227.0, 374.0, 479.0, 546.0]
+        percentile_00_5: 227.0
+        percentile_10_0: 374.0
+        percentile_90_0: 479.0
+        percentile_99_5: 546.0
+      foreground_percentage: 0.00684962747618556
+    - image_intensity:
+      - max: 1040.0
+        mean: 338.53155517578125
+        median: 366.0
+        min: -746.0
+        stdev: 98.25387573242188
+        percentile: [-47.0, 204.0, 416.0, 487.0]
+        percentile_00_5: -47.0
+        percentile_10_0: 204.0
+        percentile_90_0: 416.0
+        percentile_99_5: 487.0
+      foreground_percentage: 0.0073076216503977776
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1007_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1007_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 243]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 243]
+    spacing: [0.43554699420928955, 0.43554699420928955, 0.625]
+    sizemm: [223.00006103515625, 223.00006103515625, 151.875]
+    intensity:
+    - max: 1534.0
+      mean: -755.3701171875
+      median: -102.0
+      min: -3022.0
+      stdev: 1224.031005859375
+      percentile: [-3022.0, -3022.0, 197.0, 570.0]
+      percentile_00_5: -3022.0
+      percentile_10_0: -3022.0
+      percentile_90_0: 197.0
+      percentile_99_5: 570.0
+  image_foreground_stats:
+    intensity:
+    - max: 647.0
+      mean: 251.1942901611328
+      median: 246.0
+      min: -664.0
+      stdev: 108.07769775390625
+      percentile: [22.0, 122.0, 399.0, 549.0]
+      percentile_00_5: 22.0
+      percentile_10_0: 122.0
+      percentile_90_0: 399.0
+      percentile_99_5: 549.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 647.0
+      mean: 251.1942901611328
+      median: 246.0
+      min: -664.0
+      stdev: 108.07769775390625
+      percentile: [22.0, 122.0, 399.0, 549.0]
+      percentile_00_5: 22.0
+      percentile_10_0: 122.0
+      percentile_90_0: 399.0
+      percentile_99_5: 549.0
+    label:
+    - image_intensity:
+      - max: 1534.0
+        mean: -825.7682495117188
+        median: -129.0
+        min: -3022.0
+        stdev: 1235.4776611328125
+        percentile: [-3022.0, -3022.0, 139.0, 579.0]
+        percentile_00_5: -3022.0
+        percentile_10_0: -3022.0
+        percentile_90_0: 139.0
+        percentile_99_5: 579.0
+      foreground_percentage: 0.9346327185630798
+    - image_intensity:
+      - max: 584.0
+        mean: 280.6091003417969
+        median: 274.0
+        min: 25.0
+        stdev: 111.48870849609375
+        percentile: [86.0, 142.0, 433.0, 501.0]
+        percentile_00_5: 86.0
+        percentile_10_0: 142.0
+        percentile_90_0: 433.0
+        percentile_99_5: 501.0
+      foreground_percentage: 0.003927050158381462
+    - image_intensity:
+      - max: 421.0
+        mean: 195.33932495117188
+        median: 210.0
+        min: -161.0
+        stdev: 68.38574981689453
+        percentile: [-19.0, 99.0, 271.0, 311.0]
+        percentile_00_5: -19.0
+        percentile_10_0: 99.0
+        percentile_90_0: 271.0
+        percentile_99_5: 311.0
+      foreground_percentage: 0.009397529996931553
+    - image_intensity:
+      - max: 569.0
+        mean: 354.3763732910156
+        median: 361.0
+        min: -80.0
+        stdev: 57.52701187133789
+        percentile: [131.0, 295.0, 415.0, 473.0]
+        percentile_00_5: 131.0
+        percentile_10_0: 295.0
+        percentile_90_0: 415.0
+        percentile_99_5: 473.0
+      foreground_percentage: 0.011935748159885406
+    - image_intensity:
+      - max: 434.0
+        mean: 251.61566162109375
+        median: 256.0
+        min: -172.0
+        stdev: 46.33552551269531
+        percentile: [77.0, 198.0, 303.0, 356.0]
+        percentile_00_5: 77.0
+        percentile_10_0: 198.0
+        percentile_90_0: 303.0
+        percentile_99_5: 356.0
+      foreground_percentage: 0.01362096518278122
+    - image_intensity:
+      - max: 499.0
+        mean: 139.04278564453125
+        median: 139.0
+        min: -198.0
+        stdev: 39.28427505493164
+        percentile: [11.0, 94.0, 185.0, 253.0]
+        percentile_00_5: 11.0
+        percentile_10_0: 94.0
+        percentile_90_0: 185.0
+        percentile_99_5: 253.0
+      foreground_percentage: 0.014438001438975334
+    - image_intensity:
+      - max: 647.0
+        mean: 482.4069519042969
+        median: 488.0
+        min: 22.0
+        stdev: 52.9360237121582
+        percentile: [310.0, 412.0, 546.0, 585.0]
+        percentile_00_5: 310.0
+        percentile_10_0: 412.0
+        percentile_90_0: 546.0
+        percentile_99_5: 585.0
+      foreground_percentage: 0.0038289984222501516
+    - image_intensity:
+      - max: 430.0
+        mean: 239.76010131835938
+        median: 249.0
+        min: -664.0
+        stdev: 51.574771881103516
+        percentile: [1.0, 188.0, 285.0, 319.0]
+        percentile_00_5: 1.0
+        percentile_10_0: 188.0
+        percentile_90_0: 285.0
+        percentile_99_5: 319.0
+      foreground_percentage: 0.008218961767852306
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1008_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1008_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 222]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 222]
+    spacing: [0.4375, 0.4375, 0.625]
+    sizemm: [224.0, 224.0, 138.75]
+    intensity:
+    - max: 1663.0
+      mean: -693.839111328125
+      median: -78.0
+      min: -3024.0
+      stdev: 1245.8734130859375
+      percentile: [-3024.0, -3024.0, 224.0, 717.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 224.0
+      percentile_99_5: 717.0
+  image_foreground_stats:
+    intensity:
+    - max: 869.0
+      mean: 332.5627746582031
+      median: 297.0
+      min: -369.0
+      stdev: 176.70965576171875
+      percentile: [12.0, 121.0, 579.0, 663.0]
+      percentile_00_5: 12.0
+      percentile_10_0: 121.0
+      percentile_90_0: 579.0
+      percentile_99_5: 663.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 869.0
+      mean: 332.5627746582031
+      median: 297.0
+      min: -369.0
+      stdev: 176.70965576171875
+      percentile: [12.0, 121.0, 579.0, 663.0]
+      percentile_00_5: 12.0
+      percentile_10_0: 121.0
+      percentile_90_0: 579.0
+      percentile_99_5: 663.0
+    label:
+    - image_intensity:
+      - max: 1663.0
+        mean: -773.9754638671875
+        median: -97.0
+        min: -3024.0
+        stdev: 1257.8858642578125
+        percentile: [-3024.0, -3024.0, 126.0, 733.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 126.0
+        percentile_99_5: 733.0
+      foreground_percentage: 0.9275791645050049
+    - image_intensity:
+      - max: 863.0
+        mean: 426.08447265625
+        median: 461.0
+        min: -97.0
+        stdev: 137.40769958496094
+        percentile: [56.0, 211.0, 575.0, 667.0]
+        percentile_00_5: 56.0
+        percentile_10_0: 211.0
+        percentile_90_0: 575.0
+        percentile_99_5: 667.0
+      foreground_percentage: 0.007218816317617893
+    - image_intensity:
+      - max: 474.0
+        mean: 189.45724487304688
+        median: 190.0
+        min: -108.0
+        stdev: 56.72029495239258
+        percentile: [24.0, 118.0, 261.0, 329.0]
+        percentile_00_5: 24.0
+        percentile_10_0: 118.0
+        percentile_90_0: 261.0
+        percentile_99_5: 329.0
+      foreground_percentage: 0.008820232935249805
+    - image_intensity:
+      - max: 869.0
+        mean: 548.4503173828125
+        median: 556.0
+        min: -107.0
+        stdev: 71.60521697998047
+        percentile: [249.0, 467.0, 627.0, 700.0]
+        percentile_00_5: 249.0
+        percentile_10_0: 467.0
+        percentile_90_0: 627.0
+        percentile_99_5: 700.0
+      foreground_percentage: 0.010967237874865532
+    - image_intensity:
+      - max: 571.0
+        mean: 225.48495483398438
+        median: 220.0
+        min: -369.0
+        stdev: 82.02591705322266
+        percentile: [11.0, 128.0, 335.0, 450.0]
+        percentile_00_5: 11.0
+        percentile_10_0: 128.0
+        percentile_90_0: 335.0
+        percentile_99_5: 450.0
+      foreground_percentage: 0.012478441931307316
+    - image_intensity:
+      - max: 734.0
+        mean: 141.8600311279297
+        median: 136.0
+        min: -366.0
+        stdev: 71.09383392333984
+        percentile: [-32.0, 64.0, 223.0, 422.0]
+        percentile_00_5: -32.0
+        percentile_10_0: 64.0
+        percentile_90_0: 223.0
+        percentile_99_5: 422.0
+      foreground_percentage: 0.012799546122550964
+    - image_intensity:
+      - max: 764.0
+        mean: 536.2249145507812
+        median: 554.0
+        min: -51.0
+        stdev: 82.2309799194336
+        percentile: [167.0, 454.0, 606.0, 658.0]
+        percentile_00_5: 167.0
+        percentile_10_0: 454.0
+        percentile_90_0: 606.0
+        percentile_99_5: 658.0
+      foreground_percentage: 0.010395686142146587
+    - image_intensity:
+      - max: 539.0
+        mean: 320.16986083984375
+        median: 320.0
+        min: 2.0
+        stdev: 51.068817138671875
+        percentile: [180.0, 256.0, 385.0, 451.0]
+        percentile_00_5: 180.0
+        percentile_10_0: 256.0
+        percentile_90_0: 385.0
+        percentile_99_5: 451.0
+      foreground_percentage: 0.009740829467773438
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1009_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1009_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 293]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 293]
+    spacing: [0.4882810115814209, 0.4882810115814209, 0.625]
+    sizemm: [249.9998779296875, 249.9998779296875, 183.125]
+    intensity:
+    - max: 3120.0
+      mean: -843.3111572265625
+      median: -401.0
+      min: -3022.0
+      stdev: 1194.5184326171875
+      percentile: [-3022.0, -3022.0, 168.0, 595.0]
+      percentile_00_5: -3022.0
+      percentile_10_0: -3022.0
+      percentile_90_0: 168.0
+      percentile_99_5: 595.0
+  image_foreground_stats:
+    intensity:
+    - max: 944.0
+      mean: 251.4875030517578
+      median: 253.0
+      min: -276.0
+      stdev: 110.35515594482422
+      percentile: [-4.0, 104.0, 397.0, 508.0]
+      percentile_00_5: -4.0
+      percentile_10_0: 104.0
+      percentile_90_0: 397.0
+      percentile_99_5: 508.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 944.0
+      mean: 251.4875030517578
+      median: 253.0
+      min: -276.0
+      stdev: 110.35515594482422
+      percentile: [-4.0, 104.0, 397.0, 508.0]
+      percentile_00_5: -4.0
+      percentile_10_0: 104.0
+      percentile_90_0: 397.0
+      percentile_99_5: 508.0
+    label:
+    - image_intensity:
+      - max: 3120.0
+        mean: -916.2230224609375
+        median: -682.0
+        min: -3022.0
+        stdev: 1198.3116455078125
+        percentile: [-3022.0, -3022.0, 99.0, 605.0]
+        percentile_00_5: -3022.0
+        percentile_10_0: -3022.0
+        percentile_90_0: 99.0
+        percentile_99_5: 605.0
+      foreground_percentage: 0.9375600218772888
+    - image_intensity:
+      - max: 568.0
+        mean: 328.82476806640625
+        median: 340.0
+        min: -68.0
+        stdev: 71.20933532714844
+        percentile: [106.0, 229.0, 409.0, 472.0]
+        percentile_00_5: 106.0
+        percentile_10_0: 229.0
+        percentile_90_0: 409.0
+        percentile_99_5: 472.0
+      foreground_percentage: 0.0131371533498168
+    - image_intensity:
+      - max: 541.0
+        mean: 223.82264709472656
+        median: 233.0
+        min: -165.0
+        stdev: 62.538063049316406
+        percentile: [23.0, 137.0, 293.0, 352.0]
+        percentile_00_5: 23.0
+        percentile_10_0: 137.0
+        percentile_90_0: 293.0
+        percentile_99_5: 352.0
+      foreground_percentage: 0.01613389141857624
+    - image_intensity:
+      - max: 605.0
+        mean: 324.8100280761719
+        median: 332.0
+        min: -67.0
+        stdev: 66.78221130371094
+        percentile: [107.0, 238.0, 401.0, 477.0]
+        percentile_00_5: 107.0
+        percentile_10_0: 238.0
+        percentile_90_0: 401.0
+        percentile_99_5: 477.0
+      foreground_percentage: 0.004779372829943895
+    - image_intensity:
+      - max: 816.0
+        mean: 215.80020141601562
+        median: 228.0
+        min: -276.0
+        stdev: 112.90412139892578
+        percentile: [-61.0, 59.0, 344.0, 546.0]
+        percentile_00_5: -61.0
+        percentile_10_0: 59.0
+        percentile_90_0: 344.0
+        percentile_99_5: 546.0
+      foreground_percentage: 0.006688140798360109
+    - image_intensity:
+      - max: 808.0
+        mean: 121.833984375
+        median: 120.0
+        min: -227.0
+        stdev: 52.609107971191406
+        percentile: [-22.0, 60.0, 185.0, 288.0]
+        percentile_00_5: -22.0
+        percentile_10_0: 60.0
+        percentile_90_0: 185.0
+        percentile_99_5: 288.0
+      foreground_percentage: 0.010978477075695992
+    - image_intensity:
+      - max: 944.0
+        mean: 429.66534423828125
+        median: 451.0
+        min: -107.0
+        stdev: 77.78307342529297
+        percentile: [142.0, 320.0, 497.0, 544.0]
+        percentile_00_5: 142.0
+        percentile_10_0: 320.0
+        percentile_90_0: 497.0
+        percentile_99_5: 544.0
+      foreground_percentage: 0.004425426479429007
+    - image_intensity:
+      - max: 445.0
+        mean: 244.10067749023438
+        median: 252.0
+        min: -102.0
+        stdev: 51.09656524658203
+        percentile: [65.0, 177.0, 299.0, 346.0]
+        percentile_00_5: 65.0
+        percentile_10_0: 177.0
+        percentile_90_0: 299.0
+        percentile_99_5: 346.0
+      foreground_percentage: 0.006297596264630556
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1010_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1010_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 274]
+    channels: 1
+    cropped_shape:
+    - [512, 494, 274]
+    spacing: [0.5058590173721313, 0.5058590173721313, 0.625]
+    sizemm: [258.99981689453125, 258.99981689453125, 171.25]
+    intensity:
+    - max: 2855.0
+      mean: -1003.4395751953125
+      median: -664.0
+      min: -3022.0
+      stdev: 1290.6661376953125
+      percentile: [-3022.0, -3022.0, 133.0, 588.0]
+      percentile_00_5: -3022.0
+      percentile_10_0: -3022.0
+      percentile_90_0: 133.0
+      percentile_99_5: 588.0
+  image_foreground_stats:
+    intensity:
+    - max: 658.0
+      mean: 282.62249755859375
+      median: 250.0
+      min: -316.0
+      stdev: 149.1192169189453
+      percentile: [-13.0, 102.0, 481.0, 545.0]
+      percentile_00_5: -13.0
+      percentile_10_0: 102.0
+      percentile_90_0: 481.0
+      percentile_99_5: 545.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 658.0
+      mean: 282.62249755859375
+      median: 250.0
+      min: -316.0
+      stdev: 149.1192169189453
+      percentile: [-13.0, 102.0, 481.0, 545.0]
+      percentile_00_5: -13.0
+      percentile_10_0: 102.0
+      percentile_90_0: 481.0
+      percentile_99_5: 545.0
+    label:
+    - image_intensity:
+      - max: 2855.0
+        mean: -1127.5594482421875
+        median: -765.0
+        min: -3022.0
+        stdev: 1303.7294921875
+        percentile: [-3022.0, -3022.0, 88.0, 591.0]
+        percentile_00_5: -3022.0
+        percentile_10_0: -3022.0
+        percentile_90_0: 88.0
+        percentile_99_5: 591.0
+      foreground_percentage: 0.9491933584213257
+    - image_intensity:
+      - max: 609.0
+        mean: 370.4493103027344
+        median: 404.0
+        min: -22.0
+        stdev: 104.88304138183594
+        percentile: [98.0, 200.0, 479.0, 534.0]
+        percentile_00_5: 98.0
+        percentile_10_0: 200.0
+        percentile_90_0: 479.0
+        percentile_99_5: 534.0
+      foreground_percentage: 0.008717070333659649
+    - image_intensity:
+      - max: 489.0
+        mean: 180.56808471679688
+        median: 186.0
+        min: -137.0
+        stdev: 70.2071533203125
+        percentile: [-20.0, 81.0, 262.0, 364.0]
+        percentile_00_5: -20.0
+        percentile_10_0: 81.0
+        percentile_90_0: 262.0
+        percentile_99_5: 364.0
+      foreground_percentage: 0.012002485804259777
+    - image_intensity:
+      - max: 622.0
+        mean: 444.2982177734375
+        median: 452.0
+        min: -46.0
+        stdev: 59.470542907714844
+        percentile: [150.0, 390.0, 503.0, 553.0]
+        percentile_00_5: 150.0
+        percentile_10_0: 390.0
+        percentile_90_0: 503.0
+        percentile_99_5: 553.0
+      foreground_percentage: 0.006690032314509153
+    - image_intensity:
+      - max: 515.0
+        mean: 156.5705108642578
+        median: 160.0
+        min: -316.0
+        stdev: 60.704994201660156
+        percentile: [-38.0, 81.0, 227.0, 318.0]
+        percentile_00_5: -38.0
+        percentile_10_0: 81.0
+        percentile_90_0: 227.0
+        percentile_99_5: 318.0
+      foreground_percentage: 0.0047813053242862225
+    - image_intensity:
+      - max: 505.0
+        mean: 122.65629577636719
+        median: 124.0
+        min: -186.0
+        stdev: 52.02676773071289
+        percentile: [-59.0, 62.0, 182.0, 277.0]
+        percentile_00_5: -59.0
+        percentile_10_0: 62.0
+        percentile_90_0: 182.0
+        percentile_99_5: 277.0
+      foreground_percentage: 0.008574227802455425
+    - image_intensity:
+      - max: 658.0
+        mean: 470.9353942871094
+        median: 480.0
+        min: 84.0
+        stdev: 53.4525260925293
+        percentile: [263.0, 407.0, 527.0, 568.0]
+        percentile_00_5: 263.0
+        percentile_10_0: 407.0
+        percentile_90_0: 527.0
+        percentile_99_5: 568.0
+      foreground_percentage: 0.005453416146337986
+    - image_intensity:
+      - max: 571.0
+        mean: 353.4634704589844
+        median: 363.0
+        min: 17.0
+        stdev: 58.55896759033203
+        percentile: [180.0, 274.0, 421.0, 466.0]
+        percentile_00_5: 180.0
+        percentile_10_0: 274.0
+        percentile_90_0: 421.0
+        percentile_99_5: 466.0
+      foreground_percentage: 0.004588162060827017
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1011_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1011_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 239]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 239]
+    spacing: [0.38867199420928955, 0.38867199420928955, 0.625]
+    sizemm: [199.00006103515625, 199.00006103515625, 149.375]
+    intensity:
+    - max: 2530.0
+      mean: -900.5946044921875
+      median: -786.0
+      min: -3022.0
+      stdev: 1179.1849365234375
+      percentile: [-3022.0, -3022.0, 165.0, 557.0]
+      percentile_00_5: -3022.0
+      percentile_10_0: -3022.0
+      percentile_90_0: 165.0
+      percentile_99_5: 557.0
+  image_foreground_stats:
+    intensity:
+    - max: 1182.0
+      mean: 245.15745544433594
+      median: 172.0
+      min: -297.0
+      stdev: 144.23574829101562
+      percentile: [6.0, 111.0, 475.0, 582.0]
+      percentile_00_5: 6.0
+      percentile_10_0: 111.0
+      percentile_90_0: 475.0
+      percentile_99_5: 582.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 1182.0
+      mean: 245.15745544433594
+      median: 172.0
+      min: -297.0
+      stdev: 144.23574829101562
+      percentile: [6.0, 111.0, 475.0, 582.0]
+      percentile_00_5: 6.0
+      percentile_10_0: 111.0
+      percentile_90_0: 475.0
+      percentile_99_5: 582.0
+    label:
+    - image_intensity:
+      - max: 2530.0
+        mean: -1042.7935791015625
+        median: -834.0
+        min: -3022.0
+        stdev: 1173.593505859375
+        percentile: [-3022.0, -3022.0, 84.0, 517.0]
+        percentile_00_5: -3022.0
+        percentile_10_0: -3022.0
+        percentile_90_0: 84.0
+        percentile_99_5: 517.0
+      foreground_percentage: 0.8895928859710693
+    - image_intensity:
+      - max: 706.0
+        mean: 343.10479736328125
+        median: 350.0
+        min: -30.0
+        stdev: 79.82794952392578
+        percentile: [133.0, 234.0, 441.0, 522.0]
+        percentile_00_5: 133.0
+        percentile_10_0: 234.0
+        percentile_90_0: 441.0
+        percentile_99_5: 522.0
+      foreground_percentage: 0.018974464386701584
+    - image_intensity:
+      - max: 274.0
+        mean: 137.31524658203125
+        median: 140.0
+        min: -75.0
+        stdev: 29.205530166625977
+        percentile: [29.0, 103.0, 171.0, 205.0]
+        percentile_00_5: 29.0
+        percentile_10_0: 103.0
+        percentile_90_0: 171.0
+        percentile_99_5: 205.0
+      foreground_percentage: 0.02270948328077793
+    - image_intensity:
+      - max: 637.0
+        mean: 365.6595764160156
+        median: 361.0
+        min: 66.0
+        stdev: 61.12854766845703
+        percentile: [231.0, 292.0, 450.0, 524.0]
+        percentile_00_5: 231.0
+        percentile_10_0: 292.0
+        percentile_90_0: 450.0
+        percentile_99_5: 524.0
+      foreground_percentage: 0.016523560509085655
+    - image_intensity:
+      - max: 291.0
+        mean: 129.66061401367188
+        median: 130.0
+        min: -97.0
+        stdev: 35.182655334472656
+        percentile: [24.0, 86.0, 174.0, 220.0]
+        percentile_00_5: 24.0
+        percentile_10_0: 86.0
+        percentile_90_0: 174.0
+        percentile_99_5: 220.0
+      foreground_percentage: 0.011126067489385605
+    - image_intensity:
+      - max: 495.0
+        mean: 141.23854064941406
+        median: 147.0
+        min: -170.0
+        stdev: 51.153236389160156
+        percentile: [-49.0, 82.0, 192.0, 273.0]
+        percentile_00_5: -49.0
+        percentile_10_0: 82.0
+        percentile_90_0: 192.0
+        percentile_99_5: 273.0
+      foreground_percentage: 0.01748535968363285
+    - image_intensity:
+      - max: 1182.0
+        mean: 511.5527038574219
+        median: 539.0
+        min: -24.0
+        stdev: 87.01808166503906
+        percentile: [161.0, 403.0, 573.0, 605.0]
+        percentile_00_5: 161.0
+        percentile_10_0: 403.0
+        percentile_90_0: 573.0
+        percentile_99_5: 605.0
+      foreground_percentage: 0.011118518188595772
+    - image_intensity:
+      - max: 314.0
+        mean: 144.07858276367188
+        median: 147.0
+        min: -297.0
+        stdev: 30.226518630981445
+        percentile: [31.0, 108.0, 178.0, 211.0]
+        percentile_00_5: 31.0
+        percentile_10_0: 108.0
+        percentile_90_0: 178.0
+        percentile_99_5: 211.0
+      foreground_percentage: 0.012469623237848282
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1012_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1012_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 177]
+    channels: 1
+    cropped_shape:
+    - [512, 477, 177]
+    spacing: [0.4882810115814209, 0.4882810115814209, 0.625]
+    sizemm: [249.9998779296875, 249.9998779296875, 110.625]
+    intensity:
+    - max: 1468.0
+      mean: -864.6888427734375
+      median: -734.0
+      min: -3022.0
+      stdev: 1158.349365234375
+      percentile: [-3022.0, -3022.0, 152.0, 585.0]
+      percentile_00_5: -3022.0
+      percentile_10_0: -3022.0
+      percentile_90_0: 152.0
+      percentile_99_5: 585.0
+  image_foreground_stats:
+    intensity:
+    - max: 661.0
+      mean: 191.57162475585938
+      median: 148.0
+      min: -254.0
+      stdev: 123.9367904663086
+      percentile: [-10.0, 67.0, 391.0, 497.0]
+      percentile_00_5: -10.0
+      percentile_10_0: 67.0
+      percentile_90_0: 391.0
+      percentile_99_5: 497.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 661.0
+      mean: 191.57162475585938
+      median: 148.0
+      min: -254.0
+      stdev: 123.9367904663086
+      percentile: [-10.0, 67.0, 391.0, 497.0]
+      percentile_00_5: -10.0
+      percentile_10_0: 67.0
+      percentile_90_0: 391.0
+      percentile_99_5: 497.0
+    label:
+    - image_intensity:
+      - max: 1468.0
+        mean: -1111.6834716796875
+        median: -807.0
+        min: -3022.0
+        stdev: 1215.7420654296875
+        percentile: [-3022.0, -3022.0, 65.0, 593.0]
+        percentile_00_5: -3022.0
+        percentile_10_0: -3022.0
+        percentile_90_0: 65.0
+        percentile_99_5: 593.0
+      foreground_percentage: 0.9002975225448608
+    - image_intensity:
+      - max: 627.0
+        mean: 320.69476318359375
+        median: 339.0
+        min: -89.0
+        stdev: 88.42372131347656
+        percentile: [73.0, 184.0, 418.0, 490.0]
+        percentile_00_5: 73.0
+        percentile_10_0: 184.0
+        percentile_90_0: 418.0
+        percentile_99_5: 490.0
+      foreground_percentage: 0.020967796444892883
+    - image_intensity:
+      - max: 422.0
+        mean: 127.07843780517578
+        median: 128.0
+        min: -254.0
+        stdev: 46.1803092956543
+        percentile: [1.0, 69.0, 184.0, 254.0]
+        percentile_00_5: 1.0
+        percentile_10_0: 69.0
+        percentile_90_0: 184.0
+        percentile_99_5: 254.0
+      foreground_percentage: 0.028269944712519646
+    - image_intensity:
+      - max: 661.0
+        mean: 340.12176513671875
+        median: 341.0
+        min: -43.0
+        stdev: 60.31083679199219
+        percentile: [154.0, 266.0, 415.0, 490.0]
+        percentile_00_5: 154.0
+        percentile_10_0: 266.0
+        percentile_90_0: 415.0
+        percentile_99_5: 490.0
+      foreground_percentage: 0.0062519870698452
+    - image_intensity:
+      - max: 337.0
+        mean: 110.3918685913086
+        median: 111.0
+        min: -120.0
+        stdev: 42.60251998901367
+        percentile: [-9.0, 57.0, 163.0, 222.0]
+        percentile_00_5: -9.0
+        percentile_10_0: 57.0
+        percentile_90_0: 163.0
+        percentile_99_5: 222.0
+      foreground_percentage: 0.01041041687130928
+    - image_intensity:
+      - max: 417.0
+        mean: 95.3499526977539
+        median: 96.0
+        min: -183.0
+        stdev: 49.364559173583984
+        percentile: [-40.0, 33.0, 157.0, 227.0]
+        percentile_00_5: -40.0
+        percentile_10_0: 33.0
+        percentile_90_0: 157.0
+        percentile_99_5: 227.0
+      foreground_percentage: 0.019425947219133377
+    - image_intensity:
+      - max: 624.0
+        mean: 422.270751953125
+        median: 444.0
+        min: -18.0
+        stdev: 75.39251708984375
+        percentile: [146.0, 320.0, 492.0, 536.0]
+        percentile_00_5: 146.0
+        percentile_10_0: 320.0
+        percentile_90_0: 492.0
+        percentile_99_5: 536.0
+      foreground_percentage: 0.005634739063680172
+    - image_intensity:
+      - max: 380.0
+        mean: 145.97837829589844
+        median: 150.0
+        min: -93.0
+        stdev: 40.81358337402344
+        percentile: [16.0, 92.0, 192.0, 243.0]
+        percentile_00_5: 16.0
+        percentile_10_0: 92.0
+        percentile_90_0: 192.0
+        percentile_99_5: 243.0
+      foreground_percentage: 0.008741626515984535
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1013_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1013_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 211]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 211]
+    spacing: [0.43945300579071045, 0.43945300579071045, 0.625]
+    sizemm: [224.99993896484375, 224.99993896484375, 131.875]
+    intensity:
+    - max: 1500.0
+      mean: -922.671142578125
+      median: -757.0
+      min: -3022.0
+      stdev: 1157.706298828125
+      percentile: [-3022.0, -3022.0, 137.0, 442.0]
+      percentile_00_5: -3022.0
+      percentile_10_0: -3022.0
+      percentile_90_0: 137.0
+      percentile_99_5: 442.0
+  image_foreground_stats:
+    intensity:
+    - max: 793.0
+      mean: 176.66470336914062
+      median: 135.0
+      min: -868.0
+      stdev: 121.83721160888672
+      percentile: [-50.0, 58.0, 379.0, 453.0]
+      percentile_00_5: -50.0
+      percentile_10_0: 58.0
+      percentile_90_0: 379.0
+      percentile_99_5: 453.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 793.0
+      mean: 176.66470336914062
+      median: 135.0
+      min: -868.0
+      stdev: 121.83721160888672
+      percentile: [-50.0, 58.0, 379.0, 453.0]
+      percentile_00_5: -50.0
+      percentile_10_0: 58.0
+      percentile_90_0: 379.0
+      percentile_99_5: 453.0
+    label:
+    - image_intensity:
+      - max: 1500.0
+        mean: -1043.1119384765625
+        median: -788.0
+        min: -3022.0
+        stdev: 1156.97265625
+        percentile: [-3022.0, -3022.0, 76.0, 431.0]
+        percentile_00_5: -3022.0
+        percentile_10_0: -3022.0
+        percentile_90_0: 76.0
+        percentile_99_5: 431.0
+      foreground_percentage: 0.9012598991394043
+    - image_intensity:
+      - max: 599.0
+        mean: 288.2936096191406
+        median: 319.0
+        min: -155.0
+        stdev: 107.5062026977539
+        percentile: [38.0, 122.0, 407.0, 469.0]
+        percentile_00_5: 38.0
+        percentile_10_0: 122.0
+        percentile_90_0: 407.0
+        percentile_99_5: 469.0
+      foreground_percentage: 0.00889822468161583
+    - image_intensity:
+      - max: 335.0
+        mean: 103.5372314453125
+        median: 113.0
+        min: -239.0
+        stdev: 59.6566047668457
+        percentile: [-79.0, 19.0, 172.0, 222.0]
+        percentile_00_5: -79.0
+        percentile_10_0: 19.0
+        percentile_90_0: 172.0
+        percentile_99_5: 222.0
+      foreground_percentage: 0.016447022557258606
+    - image_intensity:
+      - max: 793.0
+        mean: 326.56890869140625
+        median: 334.0
+        min: -137.0
+        stdev: 64.78597259521484
+        percentile: [92.0, 249.0, 399.0, 455.0]
+        percentile_00_5: 92.0
+        percentile_10_0: 249.0
+        percentile_90_0: 399.0
+        percentile_99_5: 455.0
+      foreground_percentage: 0.013451200909912586
+    - image_intensity:
+      - max: 367.0
+        mean: 119.23389434814453
+        median: 121.0
+        min: -220.0
+        stdev: 41.1348876953125
+        percentile: [-18.0, 69.0, 168.0, 225.0]
+        percentile_00_5: -18.0
+        percentile_10_0: 69.0
+        percentile_90_0: 168.0
+        percentile_99_5: 225.0
+      foreground_percentage: 0.011028614826500416
+    - image_intensity:
+      - max: 429.0
+        mean: 94.0569076538086
+        median: 94.0
+        min: -192.0
+        stdev: 42.55739212036133
+        percentile: [-36.0, 43.0, 146.0, 214.0]
+        percentile_00_5: -36.0
+        percentile_10_0: 43.0
+        percentile_90_0: 146.0
+        percentile_99_5: 214.0
+      foreground_percentage: 0.02738240361213684
+    - image_intensity:
+      - max: 548.0
+        mean: 380.507080078125
+        median: 393.0
+        min: -166.0
+        stdev: 60.21537399291992
+        percentile: [122.0, 312.0, 436.0, 477.0]
+        percentile_00_5: 122.0
+        percentile_10_0: 312.0
+        percentile_90_0: 436.0
+        percentile_99_5: 477.0
+      foreground_percentage: 0.008491805754601955
+    - image_intensity:
+      - max: 319.0
+        mean: 127.39099884033203
+        median: 134.0
+        min: -868.0
+        stdev: 55.38740539550781
+        percentile: [-178.0, 80.0, 176.0, 217.0]
+        percentile_00_5: -178.0
+        percentile_10_0: 80.0
+        percentile_90_0: 176.0
+        percentile_99_5: 217.0
+      foreground_percentage: 0.013040822930634022
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1014_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1014_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 358]
+    channels: 1
+    cropped_shape:
+    - [512, 508, 358]
+    spacing: [0.28125, 0.28125, 0.44999998807907104]
+    sizemm: [144.0, 144.0, 161.09999573230743]
+    intensity:
+    - max: 2483.0
+      mean: -481.4822998046875
+      median: -838.0
+      min: -1024.0
+      stdev: 553.3274536132812
+      percentile: [-1024.0, -1024.0, 290.0, 570.0]
+      percentile_00_5: -1024.0
+      percentile_10_0: -1024.0
+      percentile_90_0: 290.0
+      percentile_99_5: 570.0
+  image_foreground_stats:
+    intensity:
+    - max: 738.0
+      mean: 247.68089294433594
+      median: 191.0
+      min: -1024.0
+      stdev: 154.26661682128906
+      percentile: [-30.0, 77.0, 465.0, 554.0]
+      percentile_00_5: -30.0
+      percentile_10_0: 77.0
+      percentile_90_0: 465.0
+      percentile_99_5: 554.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 738.0
+      mean: 247.68089294433594
+      median: 191.0
+      min: -1024.0
+      stdev: 154.26661682128906
+      percentile: [-30.0, 77.0, 465.0, 554.0]
+      percentile_00_5: -30.0
+      percentile_10_0: 77.0
+      percentile_90_0: 465.0
+      percentile_99_5: 554.0
+    label:
+    - image_intensity:
+      - max: 2483.0
+        mean: -620.04833984375
+        median: -887.0
+        min: -1024.0
+        stdev: 491.1202697753906
+        percentile: [-1024.0, -1024.0, 116.0, 586.0]
+        percentile_00_5: -1024.0
+        percentile_10_0: -1024.0
+        percentile_90_0: 116.0
+        percentile_99_5: 586.0
+      foreground_percentage: 0.8451963663101196
+    - image_intensity:
+      - max: 729.0
+        mean: 354.3376770019531
+        median: 387.0
+        min: -140.0
+        stdev: 109.93978118896484
+        percentile: [58.0, 172.0, 466.0, 540.0]
+        percentile_00_5: 58.0
+        percentile_10_0: 172.0
+        percentile_90_0: 466.0
+        percentile_99_5: 540.0
+      foreground_percentage: 0.02558465301990509
+    - image_intensity:
+      - max: 375.0
+        mean: 121.54985809326172
+        median: 127.0
+        min: -633.0
+        stdev: 53.259979248046875
+        percentile: [-47.0, 51.0, 184.0, 241.0]
+        percentile_00_5: -47.0
+        percentile_10_0: 51.0
+        percentile_90_0: 184.0
+        percentile_99_5: 241.0
+      foreground_percentage: 0.028011342510581017
+    - image_intensity:
+      - max: 689.0
+        mean: 425.2799072265625
+        median: 427.0
+        min: -59.0
+        stdev: 55.54072952270508
+        percentile: [252.0, 357.0, 494.0, 562.0]
+        percentile_00_5: 252.0
+        percentile_10_0: 357.0
+        percentile_90_0: 494.0
+        percentile_99_5: 562.0
+      foreground_percentage: 0.019386962056159973
+    - image_intensity:
+      - max: 408.0
+        mean: 123.68136596679688
+        median: 126.0
+        min: -587.0
+        stdev: 52.8676643371582
+        percentile: [-35.0, 57.0, 188.0, 257.0]
+        percentile_00_5: -35.0
+        percentile_10_0: 57.0
+        percentile_90_0: 188.0
+        percentile_99_5: 257.0
+      foreground_percentage: 0.014473611488938332
+    - image_intensity:
+      - max: 579.0
+        mean: 112.56744384765625
+        median: 116.0
+        min: -650.0
+        stdev: 52.51765060424805
+        percentile: [-59.0, 48.0, 174.0, 245.0]
+        percentile_00_5: -59.0
+        percentile_10_0: 48.0
+        percentile_90_0: 174.0
+        percentile_99_5: 245.0
+      foreground_percentage: 0.033683136105537415
+    - image_intensity:
+      - max: 738.0
+        mean: 461.5705871582031
+        median: 467.0
+        min: -71.0
+        stdev: 58.99066162109375
+        percentile: [239.0, 393.0, 529.0, 592.0]
+        percentile_00_5: 239.0
+        percentile_10_0: 393.0
+        percentile_90_0: 529.0
+        percentile_99_5: 592.0
+      foreground_percentage: 0.015957923606038094
+    - image_intensity:
+      - max: 635.0
+        mean: 264.27117919921875
+        median: 267.0
+        min: -1024.0
+        stdev: 84.39553833007812
+        percentile: [31.0, 161.0, 366.0, 468.0]
+        percentile_00_5: 31.0
+        percentile_10_0: 161.0
+        percentile_90_0: 366.0
+        percentile_99_5: 468.0
+      foreground_percentage: 0.01770605519413948
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1015_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1015_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 300]
+    channels: 1
+    cropped_shape:
+    - [512, 449, 300]
+    spacing: [0.5644530057907104, 0.5644530057907104, 0.625]
+    sizemm: [288.99993896484375, 288.99993896484375, 187.5]
+    intensity:
+    - max: 2216.0
+      mean: -1083.36865234375
+      median: -825.0
+      min: -3024.0
+      stdev: 1251.44140625
+      percentile: [-3024.0, -3024.0, 115.0, 570.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 115.0
+      percentile_99_5: 570.0
+  image_foreground_stats:
+    intensity:
+    - max: 654.0
+      mean: 239.614501953125
+      median: 164.0
+      min: -655.0
+      stdev: 156.2353973388672
+      percentile: [-8.0, 84.0, 466.0, 518.0]
+      percentile_00_5: -8.0
+      percentile_10_0: 84.0
+      percentile_90_0: 466.0
+      percentile_99_5: 518.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 654.0
+      mean: 239.614501953125
+      median: 164.0
+      min: -655.0
+      stdev: 156.2353973388672
+      percentile: [-8.0, 84.0, 466.0, 518.0]
+      percentile_00_5: -8.0
+      percentile_10_0: 84.0
+      percentile_90_0: 466.0
+      percentile_99_5: 518.0
+    label:
+    - image_intensity:
+      - max: 2216.0
+        mean: -1291.18115234375
+        median: -871.0
+        min: -3024.0
+        stdev: 1267.7261962890625
+        percentile: [-3024.0, -3024.0, 71.0, 554.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 71.0
+        percentile_99_5: 554.0
+      foreground_percentage: 0.9566978812217712
+    - image_intensity:
+      - max: 654.0
+        mean: 347.4088439941406
+        median: 398.0
+        min: -48.0
+        stdev: 128.70594787597656
+        percentile: [49.0, 134.0, 477.0, 533.0]
+        percentile_00_5: 49.0
+        percentile_10_0: 134.0
+        percentile_90_0: 477.0
+        percentile_99_5: 533.0
+      foreground_percentage: 0.004401283338665962
+    - image_intensity:
+      - max: 425.0
+        mean: 139.1707763671875
+        median: 142.0
+        min: -175.0
+        stdev: 37.44615936279297
+        percentile: [-11.985107421875, 96.0, 181.0, 229.0]
+        percentile_00_5: -11.985107421875
+        percentile_10_0: 96.0
+        percentile_90_0: 181.0
+        percentile_99_5: 229.0
+      foreground_percentage: 0.007077585905790329
+    - image_intensity:
+      - max: 602.0
+        mean: 445.72998046875
+        median: 457.0
+        min: -87.0
+        stdev: 59.82728958129883
+        percentile: [144.0, 398.0, 496.0, 535.0]
+        percentile_00_5: 144.0
+        percentile_10_0: 398.0
+        percentile_90_0: 496.0
+        percentile_99_5: 535.0
+      foreground_percentage: 0.005976473446935415
+    - image_intensity:
+      - max: 361.0
+        mean: 114.94941711425781
+        median: 116.0
+        min: -655.0
+        stdev: 47.038543701171875
+        percentile: [-65.0, 65.0, 168.0, 232.0]
+        percentile_00_5: -65.0
+        percentile_10_0: 65.0
+        percentile_90_0: 168.0
+        percentile_99_5: 232.0
+      foreground_percentage: 0.006620445288717747
+    - image_intensity:
+      - max: 574.0
+        mean: 106.86006164550781
+        median: 104.0
+        min: -160.0
+        stdev: 42.787017822265625
+        percentile: [-29.0, 63.0, 154.0, 277.0]
+        percentile_00_5: -29.0
+        percentile_10_0: 63.0
+        percentile_90_0: 154.0
+        percentile_99_5: 277.0
+      foreground_percentage: 0.007278556935489178
+    - image_intensity:
+      - max: 583.0
+        mean: 433.4716491699219
+        median: 442.0
+        min: -57.0
+        stdev: 52.95391845703125
+        percentile: [166.0, 392.0, 481.0, 516.0]
+        percentile_00_5: 166.0
+        percentile_10_0: 392.0
+        percentile_90_0: 481.0
+        percentile_99_5: 516.0
+      foreground_percentage: 0.006502914242446423
+    - image_intensity:
+      - max: 535.0
+        mean: 154.3204803466797
+        median: 161.0
+        min: -151.0
+        stdev: 52.382904052734375
+        percentile: [4.0, 82.0, 211.0, 304.0]
+        percentile_00_5: 4.0
+        percentile_10_0: 82.0
+        percentile_90_0: 211.0
+        percentile_99_5: 304.0
+      foreground_percentage: 0.005444869864732027
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1016_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1016_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 333]
+    channels: 1
+    cropped_shape:
+    - [512, 508, 333]
+    spacing: [0.306640625, 0.306640625, 0.44999998807907104]
+    sizemm: [157.0, 157.0, 149.84999603033066]
+    intensity:
+    - max: 3071.0
+      mean: -353.4786071777344
+      median: -124.0
+      min: -1024.0
+      stdev: 527.1397094726562
+      percentile: [-1024.0, -1024.0, 238.0, 632.0]
+      percentile_00_5: -1024.0
+      percentile_10_0: -1024.0
+      percentile_90_0: 238.0
+      percentile_99_5: 632.0
+  image_foreground_stats:
+    intensity:
+    - max: 1243.0
+      mean: 276.5220642089844
+      median: 216.0
+      min: -353.0
+      stdev: 178.4608154296875
+      percentile: [-45.0, 82.0, 543.0, 674.0]
+      percentile_00_5: -45.0
+      percentile_10_0: 82.0
+      percentile_90_0: 543.0
+      percentile_99_5: 674.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 1243.0
+      mean: 276.5220642089844
+      median: 216.0
+      min: -353.0
+      stdev: 178.4608154296875
+      percentile: [-45.0, 82.0, 543.0, 674.0]
+      percentile_00_5: -45.0
+      percentile_10_0: 82.0
+      percentile_90_0: 543.0
+      percentile_99_5: 674.0
+    label:
+    - image_intensity:
+      - max: 3071.0
+        mean: -463.97979736328125
+        median: -626.0
+        min: -1024.0
+        stdev: 492.1677551269531
+        percentile: [-1024.0, -1024.0, 110.0, 601.0]
+        percentile_00_5: -1024.0
+        percentile_10_0: -1024.0
+        percentile_90_0: 110.0
+        percentile_99_5: 601.0
+      foreground_percentage: 0.8578494787216187
+    - image_intensity:
+      - max: 905.0
+        mean: 408.65716552734375
+        median: 423.0
+        min: -144.0
+        stdev: 108.49198913574219
+        percentile: [95.0, 254.0, 534.0, 637.0]
+        percentile_00_5: 95.0
+        percentile_10_0: 254.0
+        percentile_90_0: 534.0
+        percentile_99_5: 637.0
+      foreground_percentage: 0.02450696751475334
+    - image_intensity:
+      - max: 623.0
+        mean: 146.45738220214844
+        median: 150.0
+        min: -353.0
+        stdev: 67.63404846191406
+        percentile: [-52.0, 59.0, 229.0, 311.0]
+        percentile_00_5: -52.0
+        percentile_10_0: 59.0
+        percentile_90_0: 229.0
+        percentile_99_5: 311.0
+      foreground_percentage: 0.02996780350804329
+    - image_intensity:
+      - max: 881.0
+        mean: 473.9217529296875
+        median: 475.0
+        min: -30.0
+        stdev: 84.10919189453125
+        percentile: [247.0, 366.0, 581.0, 684.0]
+        percentile_00_5: 247.0
+        percentile_10_0: 366.0
+        percentile_90_0: 581.0
+        percentile_99_5: 684.0
+      foreground_percentage: 0.016202393919229507
+    - image_intensity:
+      - max: 527.0
+        mean: 145.2972869873047
+        median: 146.0
+        min: -253.0
+        stdev: 71.6240463256836
+        percentile: [-50.0, 54.0, 236.0, 330.0]
+        percentile_00_5: -50.0
+        percentile_10_0: 54.0
+        percentile_90_0: 236.0
+        percentile_99_5: 330.0
+      foreground_percentage: 0.017733508720993996
+    - image_intensity:
+      - max: 659.0
+        mean: 135.265625
+        median: 138.0
+        min: -340.0
+        stdev: 71.22561645507812
+        percentile: [-82.0, 46.0, 221.0, 315.0]
+        percentile_00_5: -82.0
+        percentile_10_0: 46.0
+        percentile_90_0: 221.0
+        percentile_99_5: 315.0
+      foreground_percentage: 0.024975957348942757
+    - image_intensity:
+      - max: 979.0
+        mean: 549.1666259765625
+        median: 555.0
+        min: -35.0
+        stdev: 78.75484466552734
+        percentile: [264.0, 454.0, 640.0, 727.0]
+        percentile_00_5: 264.0
+        percentile_10_0: 454.0
+        percentile_90_0: 640.0
+        percentile_99_5: 727.0
+      foreground_percentage: 0.01547450851649046
+    - image_intensity:
+      - max: 1243.0
+        mean: 208.59007263183594
+        median: 215.0
+        min: -322.0
+        stdev: 83.14913940429688
+        percentile: [-55.0, 102.0, 307.0, 396.0]
+        percentile_00_5: -55.0
+        percentile_10_0: 102.0
+        percentile_90_0: 307.0
+        percentile_99_5: 396.0
+      foreground_percentage: 0.013289408758282661
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1017_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1017_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 283]
+    channels: 1
+    cropped_shape:
+    - [512, 463, 283]
+    spacing: [0.5859379768371582, 0.5859379768371582, 0.625]
+    sizemm: [300.000244140625, 300.000244140625, 176.875]
+    intensity:
+    - max: 1358.0
+      mean: -897.5963745117188
+      median: -239.0
+      min: -3024.0
+      stdev: 1235.752197265625
+      percentile: [-3024.0, -3024.0, 120.0, 535.0]
+      percentile_00_5: -3024.0
+      percentile_10_0: -3024.0
+      percentile_90_0: 120.0
+      percentile_99_5: 535.0
+  image_foreground_stats:
+    intensity:
+    - max: 814.0
+      mean: 202.72802734375
+      median: 162.0
+      min: -166.0
+      stdev: 118.91851806640625
+      percentile: [1.0, 90.0, 395.0, 534.0]
+      percentile_00_5: 1.0
+      percentile_10_0: 90.0
+      percentile_90_0: 395.0
+      percentile_99_5: 534.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 814.0
+      mean: 202.72802734375
+      median: 162.0
+      min: -166.0
+      stdev: 118.91851806640625
+      percentile: [1.0, 90.0, 395.0, 534.0]
+      percentile_00_5: 1.0
+      percentile_10_0: 90.0
+      percentile_90_0: 395.0
+      percentile_99_5: 534.0
+    label:
+    - image_intensity:
+      - max: 1358.0
+        mean: -1101.69873046875
+        median: -723.0
+        min: -3024.0
+        stdev: 1294.437255859375
+        percentile: [-3024.0, -3024.0, 86.0, 520.0]
+        percentile_00_5: -3024.0
+        percentile_10_0: -3024.0
+        percentile_90_0: 86.0
+        percentile_99_5: 520.0
+      foreground_percentage: 0.9562000632286072
+    - image_intensity:
+      - max: 510.0
+        mean: 262.3612976074219
+        median: 276.0
+        min: -29.0
+        stdev: 77.96441650390625
+        percentile: [76.0, 146.0, 355.0, 419.0]
+        percentile_00_5: 76.0
+        percentile_10_0: 146.0
+        percentile_90_0: 355.0
+        percentile_99_5: 419.0
+      foreground_percentage: 0.005190670490264893
+    - image_intensity:
+      - max: 410.0
+        mean: 127.3450927734375
+        median: 133.0
+        min: -156.0
+        stdev: 47.801414489746094
+        percentile: [-42.0, 66.0, 180.0, 241.0]
+        percentile_00_5: -42.0
+        percentile_10_0: 66.0
+        percentile_90_0: 180.0
+        percentile_99_5: 241.0
+      foreground_percentage: 0.00706983357667923
+    - image_intensity:
+      - max: 486.0
+        mean: 245.32301330566406
+        median: 242.0
+        min: -70.0
+        stdev: 55.31320571899414
+        percentile: [75.0, 182.0, 316.0, 400.0]
+        percentile_00_5: 75.0
+        percentile_10_0: 182.0
+        percentile_90_0: 316.0
+        percentile_99_5: 400.0
+      foreground_percentage: 0.00630097696557641
+    - image_intensity:
+      - max: 375.0
+        mean: 131.0947265625
+        median: 134.0
+        min: -166.0
+        stdev: 45.345462799072266
+        percentile: [-8.0, 74.0, 185.0, 250.0]
+        percentile_00_5: -8.0
+        percentile_10_0: 74.0
+        percentile_90_0: 185.0
+        percentile_99_5: 250.0
+      foreground_percentage: 0.006945795379579067
+    - image_intensity:
+      - max: 396.0
+        mean: 116.96441650390625
+        median: 117.0
+        min: -138.0
+        stdev: 38.403602600097656
+        percentile: [5.0, 71.0, 163.0, 234.0]
+        percentile_00_5: 5.0
+        percentile_10_0: 71.0
+        percentile_90_0: 163.0
+        percentile_99_5: 234.0
+      foreground_percentage: 0.007178761530667543
+    - image_intensity:
+      - max: 814.0
+        mean: 431.78741455078125
+        median: 443.0
+        min: -1.0
+        stdev: 73.80679321289062
+        percentile: [178.0, 334.0, 515.0, 561.0]
+        percentile_00_5: 178.0
+        percentile_10_0: 334.0
+        percentile_90_0: 515.0
+        percentile_99_5: 561.0
+      foreground_percentage: 0.00597733398899436
+    - image_intensity:
+      - max: 276.0
+        mean: 144.14492797851562
+        median: 147.0
+        min: -114.0
+        stdev: 31.908935546875
+        percentile: [42.0, 103.0, 182.0, 216.0]
+        percentile_00_5: 42.0
+        percentile_10_0: 103.0
+        percentile_90_0: 182.0
+        percentile_99_5: 216.0
+      foreground_percentage: 0.005136631429195404
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1018_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1018_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 187]
+    channels: 1
+    cropped_shape:
+    - [512, 512, 187]
+    spacing: [0.36523398756980896, 0.36523398756980896, 0.625]
+    sizemm: [186.9998016357422, 186.9998016357422, 116.875]
+    intensity:
+    - max: 1503.0
+      mean: -683.9354248046875
+      median: -80.0
+      min: -3022.0
+      stdev: 1251.5284423828125
+      percentile: [-3022.0, -3022.0, 301.0, 612.0]
+      percentile_00_5: -3022.0
+      percentile_10_0: -3022.0
+      percentile_90_0: 301.0
+      percentile_99_5: 612.0
+  image_foreground_stats:
+    intensity:
+    - max: 868.0
+      mean: 279.4002685546875
+      median: 217.0
+      min: -757.0
+      stdev: 172.19044494628906
+      percentile: [-13.0, 87.0, 528.0, 621.0]
+      percentile_00_5: -13.0
+      percentile_10_0: 87.0
+      percentile_90_0: 528.0
+      percentile_99_5: 621.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 868.0
+      mean: 279.4002685546875
+      median: 217.0
+      min: -757.0
+      stdev: 172.19044494628906
+      percentile: [-13.0, 87.0, 528.0, 621.0]
+      percentile_00_5: -13.0
+      percentile_10_0: 87.0
+      percentile_90_0: 528.0
+      percentile_99_5: 621.0
+    label:
+    - image_intensity:
+      - max: 1503.0
+        mean: -852.644287109375
+        median: -126.0
+        min: -3022.0
+        stdev: 1282.3631591796875
+        percentile: [-3022.0, -3022.0, 140.0, 603.0]
+        percentile_00_5: -3022.0
+        percentile_10_0: -3022.0
+        percentile_90_0: 140.0
+        percentile_99_5: 603.0
+      foreground_percentage: 0.8509697914123535
+    - image_intensity:
+      - max: 784.0
+        mean: 412.2449035644531
+        median: 427.0
+        min: -188.0
+        stdev: 99.44087982177734
+        percentile: [109.0, 272.0, 525.0, 610.0]
+        percentile_00_5: 109.0
+        percentile_10_0: 272.0
+        percentile_90_0: 525.0
+        percentile_99_5: 610.0
+      foreground_percentage: 0.03498269245028496
+    - image_intensity:
+      - max: 490.0
+        mean: 135.75201416015625
+        median: 137.0
+        min: -169.0
+        stdev: 54.56706237792969
+        percentile: [-14.0, 66.0, 204.0, 274.0]
+        percentile_00_5: -14.0
+        percentile_10_0: 66.0
+        percentile_90_0: 204.0
+        percentile_99_5: 274.0
+      foreground_percentage: 0.03652205318212509
+    - image_intensity:
+      - max: 856.0
+        mean: 428.0349426269531
+        median: 448.0
+        min: -149.0
+        stdev: 115.85559844970703
+        percentile: [90.0, 257.0, 558.0, 655.0]
+        percentile_00_5: 90.0
+        percentile_10_0: 257.0
+        percentile_90_0: 558.0
+        percentile_99_5: 655.0
+      foreground_percentage: 0.017937278375029564
+    - image_intensity:
+      - max: 507.0
+        mean: 137.02381896972656
+        median: 139.0
+        min: -757.0
+        stdev: 63.45297622680664
+        percentile: [-43.0, 56.0, 215.0, 299.0]
+        percentile_00_5: -43.0
+        percentile_10_0: 56.0
+        percentile_90_0: 215.0
+        percentile_99_5: 299.0
+      foreground_percentage: 0.016333453357219696
+    - image_intensity:
+      - max: 584.0
+        mean: 122.8786849975586
+        median: 124.0
+        min: -254.0
+        stdev: 61.561885833740234
+        percentile: [-52.0, 46.0, 199.0, 285.0]
+        percentile_00_5: -52.0
+        percentile_10_0: 46.0
+        percentile_90_0: 199.0
+        percentile_99_5: 285.0
+      foreground_percentage: 0.01686094142496586
+    - image_intensity:
+      - max: 868.0
+        mean: 518.0796508789062
+        median: 531.0
+        min: -68.0
+        stdev: 71.84750366210938
+        percentile: [216.0, 444.0, 585.0, 652.0]
+        percentile_00_5: 216.0
+        percentile_10_0: 444.0
+        percentile_90_0: 585.0
+        percentile_99_5: 652.0
+      foreground_percentage: 0.015783442184329033
+    - image_intensity:
+      - max: 538.0
+        mean: 197.44131469726562
+        median: 201.0
+        min: -265.0
+        stdev: 53.390689849853516
+        percentile: [23.0, 131.0, 261.0, 317.0]
+        percentile_00_5: 23.0
+        percentile_10_0: 131.0
+        percentile_90_0: 261.0
+        percentile_99_5: 317.0
+      foreground_percentage: 0.010610386729240417
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1019_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1019_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 297]
+    channels: 1
+    cropped_shape:
+    - [512, 458, 297]
+    spacing: [0.4882810115814209, 0.4882810115814209, 0.625]
+    sizemm: [249.9998779296875, 249.9998779296875, 185.625]
+    intensity:
+    - max: 3136.0
+      mean: -871.6768798828125
+      median: -725.0
+      min: -3022.0
+      stdev: 1179.5963134765625
+      percentile: [-3022.0, -3022.0, 154.0, 620.0]
+      percentile_00_5: -3022.0
+      percentile_10_0: -3022.0
+      percentile_90_0: 154.0
+      percentile_99_5: 620.0
+  image_foreground_stats:
+    intensity:
+    - max: 705.0
+      mean: 247.45066833496094
+      median: 240.0
+      min: -383.0
+      stdev: 135.38211059570312
+      percentile: [17.0, 69.0, 439.0, 533.0]
+      percentile_00_5: 17.0
+      percentile_10_0: 69.0
+      percentile_90_0: 439.0
+      percentile_99_5: 533.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 705.0
+      mean: 247.45066833496094
+      median: 240.0
+      min: -383.0
+      stdev: 135.38211059570312
+      percentile: [17.0, 69.0, 439.0, 533.0]
+      percentile_00_5: 17.0
+      percentile_10_0: 69.0
+      percentile_90_0: 439.0
+      percentile_99_5: 533.0
+    label:
+    - image_intensity:
+      - max: 3136.0
+        mean: -1172.10498046875
+        median: -789.0
+        min: -3022.0
+        stdev: 1291.2052001953125
+        percentile: [-3022.0, -3022.0, 87.0, 608.0]
+        percentile_00_5: -3022.0
+        percentile_10_0: -3022.0
+        percentile_90_0: 87.0
+        percentile_99_5: 608.0
+      foreground_percentage: 0.9480997920036316
+    - image_intensity:
+      - max: 567.0
+        mean: 238.0888671875
+        median: 256.0
+        min: -41.0
+        stdev: 108.28302001953125
+        percentile: [34.0, 88.0, 371.0, 452.0]
+        percentile_00_5: 34.0
+        percentile_10_0: 88.0
+        percentile_90_0: 371.0
+        percentile_99_5: 452.0
+      foreground_percentage: 0.0037948787212371826
+    - image_intensity:
+      - max: 587.0
+        mean: 248.0266571044922
+        median: 266.0
+        min: -103.0
+        stdev: 104.76170349121094
+        percentile: [18.0, 88.0, 373.0, 475.0]
+        percentile_00_5: 18.0
+        percentile_10_0: 88.0
+        percentile_90_0: 373.0
+        percentile_99_5: 475.0
+      foreground_percentage: 0.0076120165176689625
+    - image_intensity:
+      - max: 686.0
+        mean: 423.2152099609375
+        median: 428.0
+        min: 71.0
+        stdev: 58.971160888671875
+        percentile: [235.0, 348.0, 493.0, 558.0]
+        percentile_00_5: 235.0
+        percentile_10_0: 348.0
+        percentile_90_0: 493.0
+        percentile_99_5: 558.0
+      foreground_percentage: 0.00797359086573124
+    - image_intensity:
+      - max: 641.0
+        mean: 222.0560760498047
+        median: 217.0
+        min: -183.0
+        stdev: 57.84358215332031
+        percentile: [56.0, 161.0, 289.0, 435.0]
+        percentile_00_5: 56.0
+        percentile_10_0: 161.0
+        percentile_90_0: 289.0
+        percentile_99_5: 435.0
+      foreground_percentage: 0.010630880482494831
+    - image_intensity:
+      - max: 459.0
+        mean: 81.4279556274414
+        median: 79.0
+        min: -144.0
+        stdev: 34.90990447998047
+        percentile: [2.0, 41.0, 124.0, 208.0]
+        percentile_00_5: 2.0
+        percentile_10_0: 41.0
+        percentile_90_0: 124.0
+        percentile_99_5: 208.0
+      foreground_percentage: 0.01182553544640541
+    - image_intensity:
+      - max: 422.0
+        mean: 253.82687377929688
+        median: 253.0
+        min: 46.0
+        stdev: 38.45033264160156
+        percentile: [137.0, 208.0, 303.0, 352.0]
+        percentile_00_5: 137.0
+        percentile_10_0: 208.0
+        percentile_90_0: 303.0
+        percentile_99_5: 352.0
+      foreground_percentage: 0.004860630724579096
+    - image_intensity:
+      - max: 705.0
+        mean: 407.3597412109375
+        median: 416.0
+        min: -383.0
+        stdev: 70.14790344238281
+        percentile: [137.0, 326.0, 478.0, 578.0]
+        percentile_00_5: 137.0
+        percentile_10_0: 326.0
+        percentile_90_0: 478.0
+        percentile_99_5: 578.0
+      foreground_percentage: 0.005202643573284149
+- image_filepath: /content/drive/MyDrive/data/images/ct_train_1020_image.nii.gz
+  label_filepath: /content/drive/MyDrive/data/labels/ct_train_1020_label.nii.gz
+  image_stats:
+    shape:
+    - [512, 512, 363]
+    channels: 1
+    cropped_shape:
+    - [512, 508, 363]
+    spacing: [0.35546875, 0.35546875, 0.44999998807907104]
+    sizemm: [182.0, 182.0, 163.3499956727028]
+    intensity:
+    - max: 3071.0
+      mean: -354.0498352050781
+      median: -106.0
+      min: -1024.0
+      stdev: 548.7142944335938
+      percentile: [-1024.0, -1024.0, 279.0, 656.0]
+      percentile_00_5: -1024.0
+      percentile_10_0: -1024.0
+      percentile_90_0: 279.0
+      percentile_99_5: 656.0
+  image_foreground_stats:
+    intensity:
+    - max: 989.0
+      mean: 271.4197692871094
+      median: 191.0
+      min: -903.0
+      stdev: 189.59400939941406
+      percentile: [-29.0, 74.0, 555.0, 671.0]
+      percentile_00_5: -29.0
+      percentile_10_0: 74.0
+      percentile_90_0: 555.0
+      percentile_99_5: 671.0
+  label_stats:
+    labels: [0, 1, 2, 3, 4, 5, 6, 7]
+    image_intensity:
+    - max: 989.0
+      mean: 271.4197692871094
+      median: 191.0
+      min: -903.0
+      stdev: 189.59400939941406
+      percentile: [-29.0, 74.0, 555.0, 671.0]
+      percentile_00_5: -29.0
+      percentile_10_0: 74.0
+      percentile_90_0: 555.0
+      percentile_99_5: 671.0
+    label:
+    - image_intensity:
+      - max: 3071.0
+        mean: -474.802490234375
+        median: -763.0
+        min: -1024.0
+        stdev: 514.5687255859375
+        percentile: [-1024.0, -1024.0, 127.0, 641.0]
+        percentile_00_5: -1024.0
+        percentile_10_0: -1024.0
+        percentile_90_0: 127.0
+        percentile_99_5: 641.0
+      foreground_percentage: 0.8451954126358032
+    - image_intensity:
+      - max: 849.0
+        mean: 399.72283935546875
+        median: 433.0
+        min: -193.0
+        stdev: 122.28153991699219
+        percentile: [44.0, 207.0, 525.0, 627.0]
+        percentile_00_5: 44.0
+        percentile_10_0: 207.0
+        percentile_90_0: 525.0
+        percentile_99_5: 627.0
+      foreground_percentage: 0.018729522824287415
+    - image_intensity:
+      - max: 547.0
+        mean: 115.60905456542969
+        median: 116.0
+        min: -326.0
+        stdev: 53.88132095336914
+        percentile: [-49.0, 49.0, 183.0, 251.0]
+        percentile_00_5: -49.0
+        percentile_10_0: 49.0
+        percentile_90_0: 183.0
+        percentile_99_5: 251.0
+      foreground_percentage: 0.02965571917593479
+    - image_intensity:
+      - max: 836.0
+        mean: 467.06072998046875
+        median: 470.0
+        min: -75.0
+        stdev: 77.29458618164062
+        percentile: [201.0, 373.0, 560.0, 652.0]
+        percentile_00_5: 201.0
+        percentile_10_0: 373.0
+        percentile_90_0: 560.0
+        percentile_99_5: 652.0
+      foreground_percentage: 0.02236032672226429
+    - image_intensity:
+      - max: 698.0
+        mean: 118.94181823730469
+        median: 115.0
+        min: -371.0
+        stdev: 62.58772277832031
+        percentile: [-45.0, 51.0, 188.0, 388.0]
+        percentile_00_5: -45.0
+        percentile_10_0: 51.0
+        percentile_90_0: 188.0
+        percentile_99_5: 388.0
+      foreground_percentage: 0.021341528743505478
+    - image_intensity:
+      - max: 711.0
+        mean: 124.27928924560547
+        median: 124.0
+        min: -243.0
+        stdev: 66.10148620605469
+        percentile: [-51.0, 45.0, 198.0, 365.0]
+        percentile_00_5: -51.0
+        percentile_10_0: 45.0
+        percentile_90_0: 198.0
+        percentile_99_5: 365.0
+      foreground_percentage: 0.02313176728785038
+    - image_intensity:
+      - max: 989.0
+        mean: 550.3009643554688
+        median: 566.0
+        min: -125.0
+        stdev: 93.4483413696289
+        percentile: [136.0, 458.0, 639.0, 713.0]
+        percentile_00_5: 136.0
+        percentile_10_0: 458.0
+        percentile_90_0: 639.0
+        percentile_99_5: 713.0
+      foreground_percentage: 0.021148240193724632
+    - image_intensity:
+      - max: 617.0
+        mean: 195.64544677734375
+        median: 198.0
+        min: -903.0
+        stdev: 58.78694152832031
+        percentile: [2.0, 129.0, 262.0, 344.0]
+        percentile_00_5: 2.0
+        percentile_10_0: 129.0
+        percentile_90_0: 262.0
+        percentile_99_5: 344.0
+      foreground_percentage: 0.018437450751662254

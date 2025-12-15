@@ -1,0 +1,14 @@
+artifact_uri: /content/drive/MyDrive/mmwhs2017/auto3dseg/dints_0/model_fold0/mlruns/961083402819804918/f53a24f2fa124b158d83c3672035f3df/artifacts
+end_time: 1764616532678
+entry_point_name: ''
+experiment_id: '961083402819804918'
+lifecycle_stage: active
+run_id: f53a24f2fa124b158d83c3672035f3df
+run_name: dints - fold0 - train
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764572614509
+status: 3
+tags: []
+user_id: root

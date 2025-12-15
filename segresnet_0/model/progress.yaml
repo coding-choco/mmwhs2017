@@ -1,0 +1,112 @@
+- {best_avg_dice_score_epoch: 25, best_avg_dice_score: 0.1086, save_time: 0.6781,
+  time: 0.08 hr, train_time: 30.35s, validation_time: 68.03s, epoch_time: 98.49s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    19:20:37'}
+- {best_avg_dice_score_epoch: 55, best_avg_dice_score: 0.1278, save_time: 0.7641,
+  time: 0.14 hr, train_time: 27.64s, validation_time: 55.39s, epoch_time: 83.11s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    19:24:21'}
+- {best_avg_dice_score_epoch: 85, best_avg_dice_score: 0.2888, save_time: 0.7835,
+  time: 0.20 hr, train_time: 26.40s, validation_time: 55.34s, epoch_time: 81.82s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    19:28:03'}
+- {best_avg_dice_score_epoch: 115, best_avg_dice_score: 0.4177, save_time: 0.7725,
+  time: 0.26 hr, train_time: 27.71s, validation_time: 55.33s, epoch_time: 83.14s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    19:31:52'}
+- {best_avg_dice_score_epoch: 145, best_avg_dice_score: 0.4352, save_time: 0.7793,
+  time: 0.33 hr, train_time: 26.11s, validation_time: 55.34s, epoch_time: 81.55s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    19:35:34'}
+- {best_avg_dice_score_epoch: 170, best_avg_dice_score: 0.4945, save_time: 0.7842,
+  time: 0.38 hr, train_time: 27.93s, validation_time: 55.31s, epoch_time: 83.33s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    19:38:51'}
+- {best_avg_dice_score_epoch: 195, best_avg_dice_score: 0.5963, save_time: 0.8235,
+  time: 0.44 hr, train_time: 28.27s, validation_time: 55.36s, epoch_time: 83.72s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    19:42:06'}
+- {best_avg_dice_score_epoch: 220, best_avg_dice_score: 0.6080, save_time: 0.7767,
+  time: 0.49 hr, train_time: 28.35s, validation_time: 55.33s, epoch_time: 83.77s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    19:45:23'}
+- {best_avg_dice_score_epoch: 270, best_avg_dice_score: 0.6711, save_time: 0.7824,
+  time: 0.60 hr, train_time: 26.64s, validation_time: 55.33s, epoch_time: 82.05s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    19:51:49'}
+- {best_avg_dice_score_epoch: 345, best_avg_dice_score: 0.7305, save_time: 0.7462,
+  time: 0.76 hr, train_time: 28.86s, validation_time: 55.34s, epoch_time: 84.29s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    20:01:35'}
+- {best_avg_dice_score_epoch: 370, best_avg_dice_score: 0.7355, save_time: 0.7701,
+  time: 0.82 hr, train_time: 29.20s, validation_time: 55.34s, epoch_time: 84.63s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    20:04:54'}
+- {best_avg_dice_score_epoch: 395, best_avg_dice_score: 0.7486, save_time: 0.7887,
+  time: 0.87 hr, train_time: 27.82s, validation_time: 55.33s, epoch_time: 83.24s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    20:08:17'}
+- {best_avg_dice_score_epoch: 470, best_avg_dice_score: 0.7573, save_time: 0.7721,
+  time: 1.04 hr, train_time: 25.41s, validation_time: 55.34s, epoch_time: 80.84s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    20:18:09'}
+- {best_avg_dice_score_epoch: 495, best_avg_dice_score: 0.7800, save_time: 0.7859,
+  time: 1.09 hr, train_time: 27.04s, validation_time: 55.33s, epoch_time: 82.45s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    20:21:24'}
+- {best_avg_dice_score_epoch: 545, best_avg_dice_score: 0.7835, save_time: 0.7672,
+  time: 1.20 hr, train_time: 27.10s, validation_time: 55.34s, epoch_time: 82.53s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    20:28:00'}
+- {best_avg_dice_score_epoch: 570, best_avg_dice_score: 0.8131, save_time: 0.7872,
+  time: 1.26 hr, train_time: 27.43s, validation_time: 55.37s, epoch_time: 82.88s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    20:31:21'}
+- {best_avg_dice_score_epoch: 620, best_avg_dice_score: 0.8319, save_time: 0.8118,
+  time: 1.36 hr, train_time: 27.12s, validation_time: 55.33s, epoch_time: 82.53s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    20:37:49'}
+- {best_avg_dice_score_epoch: 670, best_avg_dice_score: 0.8333, save_time: 0.7917,
+  time: 1.47 hr, train_time: 26.83s, validation_time: 55.36s, epoch_time: 82.27s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    20:44:24'}
+- {best_avg_dice_score_epoch: 695, best_avg_dice_score: 0.8493, save_time: 0.7845,
+  time: 1.53 hr, train_time: 27.95s, validation_time: 55.33s, epoch_time: 83.37s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    20:47:42'}
+- {best_avg_dice_score_epoch: 745, best_avg_dice_score: 0.8500, save_time: 0.7592,
+  time: 1.64 hr, train_time: 27.99s, validation_time: 55.34s, epoch_time: 83.41s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    20:54:11'}
+- {best_avg_dice_score_epoch: 820, best_avg_dice_score: 0.8506, save_time: 0.7639,
+  time: 1.80 hr, train_time: 25.61s, validation_time: 55.33s, epoch_time: 81.02s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    21:04:05'}
+- {best_avg_dice_score_epoch: 845, best_avg_dice_score: 0.8574, save_time: 0.7542,
+  time: 1.86 hr, train_time: 27.59s, validation_time: 55.33s, epoch_time: 83.00s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    21:07:22'}
+- {best_avg_dice_score_epoch: 895, best_avg_dice_score: 0.8684, save_time: 0.7883,
+  time: 1.96 hr, train_time: 29.92s, validation_time: 55.33s, epoch_time: 85.34s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    21:13:48'}
+- {best_avg_dice_score_epoch: 1115, best_avg_dice_score: 0.8691, save_time: 0.7738,
+  time: 2.45 hr, train_time: 27.73s, validation_time: 55.33s, epoch_time: 83.15s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    21:42:57'}
+- {best_avg_dice_score_epoch: 1255, best_avg_dice_score: 0.8730, save_time: 0.7524,
+  time: 2.78 hr, train_time: 27.36s, validation_time: 55.33s, epoch_time: 82.76s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    22:02:32'}
+- {best_avg_dice_score_epoch: 1275, best_avg_dice_score: 0.8788, save_time: 0.7929,
+  time: 2.82 hr, train_time: 28.27s, validation_time: 55.33s, epoch_time: 83.70s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    22:05:21'}
+- {best_avg_dice_score_epoch: 1335, best_avg_dice_score: 0.8797, save_time: 0.7699,
+  time: 2.97 hr, train_time: 27.69s, validation_time: 55.35s, epoch_time: 83.13s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    22:14:02'}
+- {best_avg_dice_score_epoch: 1535, best_avg_dice_score: 0.8799, save_time: 0.7659,
+  time: 3.44 hr, train_time: 28.20s, validation_time: 55.34s, epoch_time: 83.64s,
+  model: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/model.pt, date: '2025-12-01
+    22:42:14'}

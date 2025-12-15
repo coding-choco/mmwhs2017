@@ -1,0 +1,14 @@
+artifact_uri: /content/drive/MyDrive/mmwhs2017/auto3dseg/swinunetr_0/model_fold0/mlruns/173382205757874532/0d65c5d297354e12bffbe02d5ad09254/artifacts
+end_time: 1764650887871
+entry_point_name: ''
+experiment_id: '173382205757874532'
+lifecycle_stage: active
+run_id: 0d65c5d297354e12bffbe02d5ad09254
+run_name: swinunetr - fold0 - train
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764634862635
+status: 3
+tags: []
+user_id: root

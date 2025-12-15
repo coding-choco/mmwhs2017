@@ -1,0 +1,14 @@
+artifact_uri: /content/drive/MyDrive/mmwhs2017/auto3dseg/segresnet_0/model/mlruns/323079937652960839/6c5bd28d5f234f9aabe623f766ab83e4/artifacts
+end_time: 1764634824103
+entry_point_name: ''
+experiment_id: '323079937652960839'
+lifecycle_stage: active
+run_id: 6c5bd28d5f234f9aabe623f766ab83e4
+run_name: segresnet - fold0 - train
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764616558537
+status: 3
+tags: []
+user_id: root
